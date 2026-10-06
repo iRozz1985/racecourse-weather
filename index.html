@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UK &amp; Ireland Racecourse Weather</title>
+<style>
+  :root { --blue:#4ec3ff; --ink:#1b2733; --muted:#64748b; --line:#e2e8f0;
+          --card:#ffffff; --bg:#f1f5f9; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+         Roboto, Helvetica, Arial, sans-serif; background:var(--bg); color:var(--ink); }
+  header { background:var(--blue); color:#063047; padding:18px 20px; }
+  header h1 { margin:0; font-size:22px; }
+  header p { margin:4px 0 0; font-size:13px; color:#0a3f5c; }
+  .controls { display:flex; flex-wrap:wrap; gap:12px; align-items:center;
+              padding:14px 20px; background:#fff; border-bottom:1px solid var(--line); }
+  .controls label { font-size:13px; color:var(--muted); margin-right:4px; }
+  select, button { font-size:14px; padding:7px 10px; border:1px solid var(--line);
+                   border-radius:8px; background:#fff; color:var(--ink); }
+  button { background:var(--blue); color:#063047; border:none; font-weight:600;
+           cursor:pointer; }
+  button:hover { filter:brightness(0.96); }
+  .status { font-size:13px; color:var(--muted); margin-left:auto; }
+  .summary { display:flex; flex-wrap:wrap; gap:10px; padding:14px 20px 4px; }
+  .pill { background:#fff; border:1px solid var(--line); border-radius:999px;
+          padding:7px 14px; font-size:13px; }
+  .pill b { color:var(--ink); }
+  main { padding:12px 20px 40px; }
+  #fixtures { padding:4px 20px 0; }
+  #fixtures .fixhead { font-size:16px; margin:14px 0 8px; font-weight:700; }
+  #fixtures .fixhead small { font-weight:400; color:var(--muted); font-size:13px; }
+  .dayblock { background:#fff; border:1px solid var(--line); border-radius:10px;
+              padding:10px 14px; margin-bottom:10px; }
+  .dayblock h3 { margin:0 0 8px; font-size:14px; color:#063047;
+                 border-bottom:1px solid var(--line); padding-bottom:6px; }
+  .fixgrid { display:flex; flex-wrap:wrap; gap:8px; }
+  .fixcard { border:1px solid var(--line); border-radius:9px; padding:8px 10px;
+             min-width:150px; flex:0 0 auto; }
+  .fixcard .fx-course { font-weight:600; font-size:13.5px; }
+  .fixcard .fx-ctry { color:var(--muted); font-size:11px; font-weight:400; }
+  .fixcard .fx-going { display:inline-block; margin-top:5px; padding:2px 8px;
+             border-radius:999px; color:#06263f; font-size:11.5px; font-weight:600; }
+  .fixcard .fx-wx { margin-top:5px; font-size:12px; color:var(--ink); }
+  .country { margin-top:18px; }
+  .country h2 { font-size:16px; margin:0 0 8px; padding-bottom:6px;
+                border-bottom:2px solid var(--blue); }
+  table { width:100%; border-collapse:collapse; background:var(--card);
+          border:1px solid var(--line); border-radius:10px; overflow:hidden; }
+  th, td { text-align:left; padding:9px 12px; font-size:14px;
+           border-bottom:1px solid var(--line); white-space:nowrap; }
+  th { background:#f8fafc; color:var(--muted); font-weight:600; cursor:pointer;
+       user-select:none; }
+  th:hover { color:var(--ink); }
+  tr:last-child td { border-bottom:none; }
+  td.course { font-weight:600; }
+  td.cond { font-size:13px; }
+  .emoji { font-size:17px; margin-right:6px; }
+  .rainbar { display:inline-block; height:8px; border-radius:4px;
+             background:var(--blue); vertical-align:middle; margin-left:6px; }
+  .num { text-align:left; font-variant-numeric:tabular-nums; }
+  .goingtag { display:inline-block; padding:3px 9px; border-radius:999px;
+              color:#06263f; font-size:12.5px; font-weight:600; white-space:normal; }
+  .goingday { display:block; font-size:11px; color:var(--muted); margin-top:3px; }
+  .nogoing { color:#cbd5e1; }
+  .err { color:#b91c1c; font-size:13px; }
+  footer { padding:0 20px 30px; font-size:12px; color:var(--muted); }
+  .loading { padding:40px 20px; text-align:center; color:var(--muted); font-size:15px; }
+  @media (max-width:720px){
+    /* hide Temp and Wind on small screens; keep Course, Going, Conditions, Rain */
+    th:nth-child(4), td:nth-child(4), th:nth-child(6), td:nth-child(6){ display:none; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>UK &amp; Ireland Racecourse Weather</h1>
+  <p>Daily forecast for all 86 racecourses &middot; weather from Open-Meteo &middot; <span id="goingNote">going from Sporting Life</span></p>
+</header>
+
+<div class="controls">
+  <div>
+    <label for="day">Day</label>
+    <select id="day"></select>
+  </div>
+  <div>
+    <label for="country">Area</label>
+    <select id="country">
+      <option value="ALL">All UK &amp; Ireland</option>
+      <option value="ENG">England</option>
+      <option value="SCO">Scotland</option>
+      <option value="WAL">Wales</option>
+      <option value="IRE">Ireland</option>
+    </select>
+  </div>
+  <div>
+    <label for="sort">Sort</label>
+    <select id="sort">
+      <option value="name">Name (A-Z)</option>
+      <option value="going">Going (softest first)</option>
+      <option value="rain">Rain (wettest first)</option>
+      <option value="wind">Wind (windiest first)</option>
+      <option value="temp">Temperature (warmest first)</option>
+    </select>
+  </div>
+  <button id="refresh">Refresh</button>
+  <span class="status" id="status"></span>
+</div>
+
+<div class="summary" id="summary"></div>
+
+<section id="fixtures"></section>
+
+<main id="main">
+  <div class="loading">Loading forecast&hellip;</div>
+</main>
+
+<footer>
+  Weather by <a href="https://open-meteo.com" target="_blank" rel="noopener">Open-Meteo</a>.
+  Going by <a href="https://www.sportinglife.com/racing/going" target="_blank" rel="noopener">Sporting Life</a>.
+  Times in UK local time. Re-run <code>fetch_going.py</code> to refresh the going.
+</footer>
+
+<!-- Official going, written by fetch_going.py. Loaded as a script so it works
+     even when this page is opened directly from a file (double-click). If the
+     file is missing the page still shows weather, with going as a dash. -->
+<script src="going_data.js" onerror="console.log('going_data.js not found')"></script>
+
+<script>
+// ---- All 86 UK & Ireland racecourses: [name, country, lat, lon] ----
+const COURSES = [
+  ["Aintree","ENG",53.4760,-2.9440],["Ascot","ENG",51.4100,-0.6790],
+  ["Ayr","SCO",55.4590,-4.6230],["Bangor-on-Dee","WAL",52.9960,-2.9170],
+  ["Bath","ENG",51.3870,-2.4290],["Beverley","ENG",53.8470,-0.4480],
+  ["Brighton","ENG",50.8300,-0.1010],["Carlisle","ENG",54.9230,-2.9560],
+  ["Cartmel","ENG",54.2010,-2.9570],["Catterick","ENG",54.3760,-1.6470],
+  ["Chelmsford City","ENG",51.7560,0.4660],["Cheltenham","ENG",51.9250,-2.0580],
+  ["Chepstow","WAL",51.6360,-2.6790],["Chester","ENG",53.1860,-2.8980],
+  ["Doncaster","ENG",53.5180,-1.1130],["Epsom Downs","ENG",51.3140,-0.2560],
+  ["Exeter","ENG",50.6710,-3.4720],["Fakenham","ENG",52.8160,0.8690],
+  ["Fontwell Park","ENG",50.8530,-0.6480],["Goodwood","ENG",50.8990,-0.7310],
+  ["Hamilton Park","SCO",55.7920,-4.0410],["Haydock Park","ENG",53.4790,-2.6300],
+  ["Hereford","ENG",52.0580,-2.7420],["Hexham","ENG",54.9540,-2.1300],
+  ["Huntingdon","ENG",52.3410,-0.1920],["Kelso","SCO",55.6060,-2.4440],
+  ["Kempton Park","ENG",51.4160,-0.4080],["Leicester","ENG",52.6000,-1.0960],
+  ["Lingfield Park","ENG",51.1700,-0.0160],["Ludlow","ENG",52.3760,-2.7390],
+  ["Market Rasen","ENG",53.3860,-0.3220],["Musselburgh","SCO",55.9440,-3.0520],
+  ["Newbury","ENG",51.3990,-1.3010],["Newcastle","ENG",55.0170,-1.6210],
+  ["Newmarket","ENG",52.2410,0.3870],["Newton Abbot","ENG",50.5330,-3.6020],
+  ["Nottingham","ENG",52.9540,-1.0920],["Perth","SCO",56.4260,-3.4150],
+  ["Plumpton","ENG",50.9230,-0.0530],["Pontefract","ENG",53.6980,-1.3010],
+  ["Redcar","ENG",54.6150,-1.0680],["Ripon","ENG",54.1420,-1.5150],
+  ["Salisbury","ENG",51.0540,-1.8420],["Sandown Park","ENG",51.3760,-0.3620],
+  ["Sedgefield","ENG",54.6450,-1.4360],["Southwell","ENG",53.0810,-0.9540],
+  ["Stratford-on-Avon","ENG",52.1870,-1.7210],["Taunton","ENG",51.0000,-3.0890],
+  ["Thirsk","ENG",54.2340,-1.3600],["Towcester","ENG",52.1290,-0.9970],
+  ["Uttoxeter","ENG",52.8970,-1.8640],["Warwick","ENG",52.2730,-1.5970],
+  ["Wetherby","ENG",53.9360,-1.3900],["Wincanton","ENG",51.0540,-2.4030],
+  ["Windsor","ENG",51.4830,-0.6090],["Wolverhampton","ENG",52.5870,-2.1250],
+  ["Worcester","ENG",52.1990,-2.2300],["Yarmouth","ENG",52.6050,1.7210],
+  ["York","ENG",53.9430,-1.0960],["Ffos Las","WAL",51.7360,-4.2600],
+  ["Ballinrobe","IRE",53.6270,-9.2240],["Bellewstown","IRE",53.6540,-6.3330],
+  ["Clonmel","IRE",52.3610,-7.7360],["Cork","IRE",52.1360,-8.4190],
+  ["Curragh","IRE",53.1640,-6.8360],["Down Royal","IRE",54.5080,-6.1140],
+  ["Downpatrick","IRE",54.3340,-5.7190],["Dundalk","IRE",54.0030,-6.3940],
+  ["Fairyhouse","IRE",53.4740,-6.4790],["Galway","IRE",53.2510,-8.9910],
+  ["Gowran Park","IRE",52.6300,-7.0640],["Kilbeggan","IRE",53.3570,-7.4990],
+  ["Killarney","IRE",52.0510,-9.5160],["Laytown","IRE",53.6760,-6.2410],
+  ["Leopardstown","IRE",53.2630,-6.1950],["Limerick","IRE",52.5680,-8.5490],
+  ["Listowel","IRE",52.4480,-9.4790],["Naas","IRE",53.2130,-6.6760],
+  ["Navan","IRE",53.6530,-6.6980],["Punchestown","IRE",53.1890,-6.6350],
+  ["Roscommon","IRE",53.6360,-8.1960],["Sligo","IRE",54.2660,-8.4610],
+  ["Thurles","IRE",52.6830,-7.8140],["Tipperary","IRE",52.4650,-8.1540],
+  ["Tramore","IRE",52.1620,-7.1430],["Wexford","IRE",52.3380,-6.4810]
+];
+
+const COUNTRY_NAMES = { ENG:"England", SCO:"Scotland", WAL:"Wales", IRE:"Ireland" };
+const COUNTRY_ORDER = ["ENG","SCO","WAL","IRE"];
+
+// Quick lookup: course name -> [name, country, lat, lon].
+const COURSE_BY_NAME = {};
+COURSES.forEach(c => { COURSE_BY_NAME[c[0]] = c; });
+
+// WMO weather code -> [label, emoji]
+const WMO = {
+  0:["Clear sky","\u2600\uFE0F"], 1:["Mainly clear","\uD83C\uDF24\uFE0F"],
+  2:["Partly cloudy","\u26C5"], 3:["Overcast","\u2601\uFE0F"],
+  45:["Fog","\uD83C\uDF2B\uFE0F"], 48:["Rime fog","\uD83C\uDF2B\uFE0F"],
+  51:["Light drizzle","\uD83C\uDF27\uFE0F"], 53:["Drizzle","\uD83C\uDF27\uFE0F"],
+  55:["Heavy drizzle","\uD83C\uDF27\uFE0F"], 56:["Freezing drizzle","\uD83C\uDF27\uFE0F"],
+  57:["Freezing drizzle","\uD83C\uDF27\uFE0F"], 61:["Light rain","\uD83C\uDF27\uFE0F"],
+  63:["Rain","\uD83C\uDF27\uFE0F"], 65:["Heavy rain","\uD83C\uDF27\uFE0F"],
+  66:["Freezing rain","\uD83C\uDF27\uFE0F"], 67:["Freezing rain","\uD83C\uDF27\uFE0F"],
+  71:["Light snow","\uD83C\uDF28\uFE0F"], 73:["Snow","\uD83C\uDF28\uFE0F"],
+  75:["Heavy snow","\uD83C\uDF28\uFE0F"], 77:["Snow grains","\uD83C\uDF28\uFE0F"],
+  80:["Light showers","\uD83C\uDF26\uFE0F"], 81:["Showers","\uD83C\uDF26\uFE0F"],
+  82:["Violent showers","\uD83C\uDF26\uFE0F"], 85:["Snow showers","\uD83C\uDF28\uFE0F"],
+  86:["Snow showers","\uD83C\uDF28\uFE0F"], 95:["Thunderstorm","\u26C8\uFE0F"],
+  96:["Thunderstorm, hail","\u26C8\uFE0F"], 99:["Thunderstorm, hail","\u26C8\uFE0F"]
+};
+function describe(code){ return WMO[code] || ["Code "+code,"\u2753"]; }
+
+const $ = (id) => document.getElementById(id);
+let lastResults = [];
+
+// Official going, loaded from going.json (produced by fetch_going.py).
+// Shape: { source, fetched_at, going: { "YYYY-MM-DD": { "Course": "Good ..." } } }
+let goingData = null;
+
+async function loadGoing(){
+  // Preferred: data injected by going_data.js (<script> tag works from file://).
+  if (window.GOING_DATA && window.GOING_DATA.going){
+    goingData = window.GOING_DATA;
+    return;
+  }
+  // Fallback: if the page is served over http(s), try fetching the JSON too.
+  try {
+    const r = await fetch("going.json?t=" + Date.now());
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    goingData = await r.json();
+  } catch (e) {
+    goingData = null;   // no going available; column shows a dash
+  }
+}
+
+// Colour a going description by its wettest word (firm = orange ... heavy = blue).
+function goingColor(text){
+  const t = (text || "").toLowerCase();
+  if (t.includes("heavy")) return "#3b5bb5";
+  if (t.includes("soft"))  return "#4e8fd6";
+  if (t.includes("yielding")) return "#5bbfd6";
+  if (t.includes("slow")) return "#5bbfd6";
+  if (t.includes("good to firm") || t.includes("firm")) return "#f4a259";
+  if (t.includes("good")) return "#8ed081";
+  if (t.includes("standard")) return "#94a3b8";
+  return "#94a3b8";
+}
+
+// Rough wetness rank for sorting (0 firm ... 5 heavy); -1 = no going.
+function goingRank(text){
+  const t = (text || "").toLowerCase();
+  if (!t) return -1;
+  if (t.includes("heavy")) return 5;
+  if (t.includes("soft")) return 4;
+  if (t.includes("yielding") || t.includes("slow")) return 3;
+  if (t.startsWith("good to firm") || (t.includes("firm") && !t.includes("good to soft"))) return 1;
+  if (t.includes("good")) return 2;
+  if (t.includes("firm")) return 0;
+  if (t.includes("standard") || t.includes("fast")) return 2;
+  return 2;
+}
+
+// Find a course's going, looking from `fromISO` forward across all published
+// dates (up to a week ahead). Returns {text, date} for the SOONEST fixture at
+// or after fromISO, so e.g. Nottingham's Wednesday going still shows while you
+// are viewing Tuesday. Returns {text:"", date:""} if the course isn't racing.
+function goingFor(courseName, fromISO){
+  if (!goingData || !goingData.going) return { text:"", date:"" };
+  const dates = Object.keys(goingData.going).sort();   // ISO sorts chronologically
+  for (const d of dates){
+    if (d < fromISO) continue;                          // only today onward
+    const text = goingData.going[d][courseName];
+    if (text) return { text: text, date: d };
+  }
+  return { text:"", date:"" };
+}
+
+// Build the Day dropdown: today + next 7 days.
+(function fillDays(){
+  const sel = $("day");
+  const today = new Date();
+  for (let i=0;i<8;i++){
+    const d = new Date(today); d.setDate(today.getDate()+i);
+    const iso = d.toISOString().slice(0,10);
+    let label = d.toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long"});
+    if (i===0) label = "Today \u2013 "+label;
+    else if (i===1) label = "Tomorrow \u2013 "+label;
+    const opt = document.createElement("option");
+    opt.value = iso; opt.textContent = label;
+    sel.appendChild(opt);
+  }
+})();
+
+async function fetchCourse(course, dateISO){
+  const [name, country, lat, lon] = course;
+  const params = new URLSearchParams({
+    latitude: lat, longitude: lon,
+    daily: "weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max,wind_speed_10m_max,wind_gusts_10m_max",
+    timezone: "Europe/London", start_date: dateISO, end_date: dateISO
+  });
+  const url = "https://api.open-meteo.com/v1/forecast?" + params.toString();
+  try {
+    const r = await fetch(url);
+    if (!r.ok) throw new Error("HTTP "+r.status);
+    const d = (await r.json()).daily || {};
+    const g = (k) => (d[k]||[null])[0];
+    const going = goingFor(name, dateISO);   // {text, date}
+    return { name, country, code:g("weather_code"),
+      tmax:g("temperature_2m_max"), tmin:g("temperature_2m_min"),
+      rain:g("precipitation_sum"), prob:g("precipitation_probability_max"),
+      wind:g("wind_speed_10m_max"), gust:g("wind_gusts_10m_max"),
+      going: going.text, goingDate: going.date, goingRank: goingRank(going.text) };
+  } catch (e) {
+    return { name, country, error: e.message };
+  }
+}
+
+// Fetch all courses with limited concurrency so we don't hammer the API.
+async function fetchAll(dateISO, onProgress){
+  const results = [];
+  let i = 0, done = 0;
+  const total = COURSES.length;
+  const WORKERS = 8;
+  async function worker(){
+    while (i < COURSES.length){
+      const idx = i++;
+      results[idx] = await fetchCourse(COURSES[idx], dateISO);
+      done++; onProgress(done, total);
+    }
+  }
+  await Promise.all(Array.from({length:WORKERS}, worker));
+  return results;
+}
+
+function num(v, d){ return (typeof v === "number") ? v : d; }
+
+function sortRows(rows, key){
+  const ok = rows.filter(r=>!r.error), bad = rows.filter(r=>r.error);
+  const by = {
+    name: [(r)=>r.name.toLowerCase(), false],
+    rain: [(r)=>num(r.rain,-1), true],
+    wind: [(r)=>num(r.wind,-1), true],
+    temp: [(r)=>num(r.tmax,-999), true],
+    going: [(r)=>num(r.goingRank,-1), true]
+  }[key] || [(r)=>r.name.toLowerCase(), false];
+  const [fn, rev] = by;
+  ok.sort((a,b)=>{ const x=fn(a),y=fn(b); return x<y?-1:x>y?1:0; });
+  if (rev) ok.reverse();
+  bad.sort((a,b)=>a.name.localeCompare(b.name));
+  return ok.concat(bad);
+}
+
+function fmtTemp(r){ return (r.tmax==null)?"n/a":Math.round(r.tmin)+"\u2013"+Math.round(r.tmax)+"\u00B0C"; }
+function fmtRain(r){ return (r.rain==null)?"n/a":r.rain.toFixed(1)+" mm ("+Math.round(r.prob)+"%)"; }
+function fmtWind(r){ return (r.wind==null)?"n/a":Math.round(r.wind)+" km/h (gust "+Math.round(r.gust)+")"; }
+
+// If the going is for a different day than the one being viewed, show a small
+// "for Wed 7 Oct" note so it's clear it's an upcoming fixture, not today's.
+function goingDayNote(goingDate, selectedDay){
+  if (!goingDate || goingDate === selectedDay) return "";
+  const d = new Date(goingDate + "T00:00:00");
+  const label = d.toLocaleDateString("en-GB", {weekday:"short", day:"numeric", month:"short"});
+  return "<span class='goingday'>for " + label + "</span>";
+}
+
+function render(results, sortKey, countryFilter){
+  const main = $("main");
+  main.innerHTML = "";
+  const selectedDay = $("day").value;
+
+  let rows = results;
+  if (countryFilter !== "ALL") rows = rows.filter(r=>r.country===countryFilter);
+
+  const byCountry = {};
+  rows.forEach(r=>{ (byCountry[r.country] = byCountry[r.country]||[]).push(r); });
+  const order = COUNTRY_ORDER.filter(c=>byCountry[c])
+    .concat(Object.keys(byCountry).filter(c=>!COUNTRY_ORDER.includes(c)));
+
+  // Max rain for scaling the little rain bars.
+  const maxRain = Math.max(1, ...rows.filter(r=>!r.error).map(r=>num(r.rain,0)));
+
+  order.forEach(c=>{
+    const sorted = sortRows(byCountry[c], sortKey);
+    const sec = document.createElement("section");
+    sec.className = "country";
+    const h = document.createElement("h2");
+    h.textContent = (COUNTRY_NAMES[c]||c) + " (" + sorted.length + " courses)";
+    sec.appendChild(h);
+
+    const table = document.createElement("table");
+    table.innerHTML = "<thead><tr>" +
+      "<th data-k='name'>Course</th><th data-k='going'>Going (official)</th>" +
+      "<th data-k='name'>Conditions</th>" +
+      "<th data-k='temp'>Temp</th><th data-k='rain'>Rain</th>" +
+      "<th data-k='wind'>Wind</th></tr></thead>";
+    const tb = document.createElement("tbody");
+
+    sorted.forEach(r=>{
+      const tr = document.createElement("tr");
+      if (r.error){
+        tr.innerHTML = "<td class='course'>"+r.name+"</td>" +
+          "<td class='err' colspan='5'>could not load ("+r.error+")</td>";
+      } else {
+        const [label, emoji] = describe(r.code);
+        const barW = Math.round(num(r.rain,0)/maxRain*60);
+        const goingCell = r.going
+          ? "<span class='goingtag' style='background:"+goingColor(r.going)+"'>"+r.going+"</span>" +
+            goingDayNote(r.goingDate, selectedDay)
+          : "<span class='nogoing'>&ndash;</span>";
+        tr.innerHTML =
+          "<td class='course'>"+r.name+"</td>" +
+          "<td class='going'>"+goingCell+"</td>" +
+          "<td class='cond'><span class='emoji'>"+emoji+"</span>"+label+"</td>" +
+          "<td class='num'>"+fmtTemp(r)+"</td>" +
+          "<td class='num'>"+fmtRain(r) +
+            (barW>0?"<span class='rainbar' style='width:"+barW+"px'></span>":"")+"</td>" +
+          "<td class='num'>"+fmtWind(r)+"</td>";
+      }
+      tb.appendChild(tr);
+    });
+    table.appendChild(tb);
+
+    // Clicking a header sorts by that column.
+    table.querySelectorAll("th").forEach(th=>{
+      th.addEventListener("click", ()=>{
+        $("sort").value = th.getAttribute("data-k");
+        render(lastResults, th.getAttribute("data-k"), $("country").value);
+      });
+    });
+
+    sec.appendChild(table);
+    main.appendChild(sec);
+  });
+
+  renderSummary(results);
+}
+
+function renderSummary(results){
+  const sum = $("summary");
+  const ok = results.filter(r=>!r.error);
+  if (!ok.length){ sum.innerHTML = ""; return; }
+  const wettest = ok.reduce((a,b)=> (num(b.rain,0) > num(a.rain,0) ? b : a));
+  const windiest = ok.reduce((a,b)=> (num(b.wind,0) > num(a.wind,0) ? b : a));
+  const warmest = ok.reduce((a,b)=> (num(b.tmax,-999) > num(a.tmax,-999) ? b : a));
+  sum.innerHTML =
+    "<span class='pill'>\uD83C\uDF27\uFE0F Wettest: <b>"+wettest.name+"</b> "+wettest.rain.toFixed(1)+" mm</span>" +
+    "<span class='pill'>\uD83D\uDCA8 Windiest: <b>"+windiest.name+"</b> "+Math.round(windiest.wind)+" km/h</span>" +
+    "<span class='pill'>\uD83C\uDF21\uFE0F Warmest: <b>"+warmest.name+"</b> "+Math.round(warmest.tmax)+"\u00B0C</span>" +
+    "<span class='pill'>"+ok.length+" / "+results.length+" courses loaded</span>";
+}
+
+function updateGoingNote(){
+  const note = $("goingNote");
+  if (goingData && goingData.fetched_at){
+    const when = new Date(goingData.fetched_at).toLocaleString("en-GB",
+      {weekday:"short", day:"numeric", month:"short", hour:"2-digit", minute:"2-digit"});
+    note.textContent = "going from Sporting Life (updated " + when + ")";
+    note.title = "Run fetch_going.py to refresh the going.";
+  } else {
+    note.textContent = "going unavailable \u2013 run fetch_going.py to load it";
+  }
+}
+
+// ---- "Racing in the next 7 days" top section ----------------------------
+
+// Fetch just the weather fields for one course on one date (used by the
+// fixtures section, which needs weather on each fixture's own day).
+async function fetchWeatherOnly(course, dateISO){
+  const [name, country, lat, lon] = course;
+  const params = new URLSearchParams({
+    latitude: lat, longitude: lon,
+    daily: "weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max,wind_speed_10m_max",
+    timezone: "Europe/London", start_date: dateISO, end_date: dateISO
+  });
+  try {
+    const r = await fetch("https://api.open-meteo.com/v1/forecast?" + params.toString());
+    if (!r.ok) throw new Error("HTTP "+r.status);
+    const d = (await r.json()).daily || {};
+    const g = (k) => (d[k]||[null])[0];
+    return { code:g("weather_code"), tmax:g("temperature_2m_max"),
+             tmin:g("temperature_2m_min"), rain:g("precipitation_sum"),
+             prob:g("precipitation_probability_max"), wind:g("wind_speed_10m_max") };
+  } catch (e) {
+    return null;
+  }
+}
+
+function dayLabel(dateISO){
+  const today = new Date(); today.setHours(0,0,0,0);
+  const d = new Date(dateISO + "T00:00:00");
+  const diff = Math.round((d - today) / 86400000);
+  const nice = d.toLocaleDateString("en-GB", {weekday:"long", day:"numeric", month:"long"});
+  if (diff === 0) return "Today \u2013 " + nice;
+  if (diff === 1) return "Tomorrow \u2013 " + nice;
+  return nice;
+}
+
+// Build the top section listing every course racing in the next 7 days,
+// grouped by day, with its official going and the weather for that day.
+async function renderFixtures(){
+  const host = $("fixtures");
+  host.innerHTML = "";
+  if (!goingData || !goingData.going){
+    host.innerHTML = "<div class='fixhead'>Racing in the next 7 days " +
+      "<small>(run fetch_going.py to load fixtures)</small></div>";
+    return;
+  }
+
+  const todayISO = new Date().toISOString().slice(0,10);
+  const dates = Object.keys(goingData.going).filter(d => d >= todayISO).sort();
+
+  // Collect (course, date) pairs to fetch weather for, de-duplicated.
+  const jobs = [];
+  dates.forEach(date => {
+    Object.keys(goingData.going[date]).forEach(courseName => {
+      const course = COURSE_BY_NAME[courseName];
+      if (course) jobs.push({ courseName, course, date,
+                              going: goingData.going[date][courseName] });
+    });
+  });
+
+  const totalCourses = jobs.length;
+  host.innerHTML = "<div class='fixhead'>Racing in the next 7 days " +
+    "<small>(" + totalCourses + " fixtures \u00b7 going + weather on the day)</small></div>" +
+    "<div class='loading'>Loading fixtures\u2026</div>";
+
+  // Fetch weather for each fixture (small number: only courses actually racing),
+  // with limited concurrency.
+  let i = 0;
+  const WORKERS = 8;
+  async function worker(){
+    while (i < jobs.length){
+      const job = jobs[i++];
+      job.wx = await fetchWeatherOnly(job.course, job.date);
+    }
+  }
+  await Promise.all(Array.from({length:WORKERS}, worker));
+
+  // Render grouped by day.
+  let html = "<div class='fixhead'>Racing in the next 7 days " +
+    "<small>(" + totalCourses + " fixtures \u00b7 going + weather on the day)</small></div>";
+  dates.forEach(date => {
+    const dayJobs = jobs.filter(j => j.date === date)
+                        .sort((a,b)=>a.courseName.localeCompare(b.courseName));
+    if (!dayJobs.length) return;
+    html += "<div class='dayblock'><h3>" + dayLabel(date) +
+            " \u00b7 " + dayJobs.length + " meeting" + (dayJobs.length>1?"s":"") + "</h3>";
+    html += "<div class='fixgrid'>";
+    dayJobs.forEach(j => {
+      const country = (j.course[1] || "");
+      let wx = "";
+      if (j.wx && j.wx.code != null){
+        const [lbl, emoji] = describe(j.wx.code);
+        wx = "<div class='fx-wx'>" + emoji + " " + lbl +
+             " \u00b7 " + Math.round(j.wx.tmin) + "\u2013" + Math.round(j.wx.tmax) + "\u00B0C" +
+             " \u00b7 " + (j.wx.rain!=null?j.wx.rain.toFixed(1):"?") + "mm" +
+             " (" + (j.wx.prob!=null?Math.round(j.wx.prob):"?") + "%)</div>";
+      }
+      html += "<div class='fixcard'>" +
+        "<div class='fx-course'>" + j.courseName +
+          " <span class='fx-ctry'>" + (COUNTRY_NAMES[country]||country) + "</span></div>" +
+        "<span class='fx-going' style='background:" + goingColor(j.going) + "'>" + j.going + "</span>" +
+        wx +
+      "</div>";
+    });
+    html += "</div></div>";
+  });
+  host.innerHTML = html;
+}
+
+async function load(){
+  const dateISO = $("day").value;
+  const btn = $("refresh"); btn.disabled = true;
+  $("main").innerHTML = "<div class='loading'>Loading forecast&hellip;</div>";
+  $("summary").innerHTML = "";
+  await loadGoing();          // official going from going.json (if present)
+  updateGoingNote();
+  renderFixtures();           // top "racing next 7 days" section (async, self-updating)
+  const results = await fetchAll(dateISO, (done,total)=>{
+    $("status").textContent = "Fetched "+done+" / "+total+" courses\u2026";
+  });
+  lastResults = results;
+  $("status").textContent = "Updated "+new Date().toLocaleTimeString("en-GB");
+  btn.disabled = false;
+  render(results, $("sort").value, $("country").value);
+}
+
+$("refresh").addEventListener("click", load);
+$("day").addEventListener("change", load);
+$("country").addEventListener("change", ()=>render(lastResults, $("sort").value, $("country").value));
+$("sort").addEventListener("change", ()=>render(lastResults, $("sort").value, $("country").value));
+
+// Go.
+load();
+</script>
+</body>
+</html>
