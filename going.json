@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-07T10:40:30",
+  "fetched_at": "2026-10-07T11:07:17",
   "going": {
     "2026-10-07": {
       "Nottingham": "Good (Good to Soft in places)",
@@ -32,12 +32,12 @@
       "Hexham": "Good-good to firm in places",
       "Southwell": "Standard",
       "Fairyhouse": "Good",
-      "Naas": "Soft-yielding to soft in places"
+      "Naas": "Soft"
     },
     "2026-10-11": {
       "Goodwood": "Good to soft-good in places",
       "Chepstow": "Good to soft-good in places",
-      "Naas": "Soft-yielding to soft in places",
+      "Naas": "Soft",
       "Cork": "Good"
     },
     "2026-10-12": {
