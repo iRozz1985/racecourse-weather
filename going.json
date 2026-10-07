@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-07T10:07:58",
+  "fetched_at": "2026-10-07T10:40:30",
   "going": {
     "2026-10-07": {
       "Nottingham": "Good (Good to Soft in places)",
@@ -43,6 +43,7 @@
     "2026-10-12": {
       "Kempton Park": "Standard to slow",
       "Newcastle": "Standard",
+      "Worcester": "Good-good to soft in places",
       "Yarmouth": "Good to firm-good in places",
       "Musselburgh": "Good"
     }
