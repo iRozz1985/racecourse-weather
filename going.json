@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-08T09:42:06",
+  "fetched_at": "2026-10-08T10:08:32",
   "going": {
     "2026-10-08": {
       "Ayr": "Heavy (Soft in places)",
@@ -20,9 +20,9 @@
     },
     "2026-10-10": {
       "Newmarket": "Good to firm",
-      "York": "Good-good to firm in places",
+      "York": "Good-good to soft in places",
       "Chepstow": "Good to soft-good in places",
-      "Hexham": "Good-good to firm in places",
+      "Hexham": "Good",
       "Southwell": "Standard",
       "Fairyhouse": "Good",
       "Naas": "Soft"
