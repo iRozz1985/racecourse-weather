@@ -1,13 +1,13 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-08T10:41:55",
+  "fetched_at": "2026-10-08T11:07:24",
   "going": {
     "2026-10-08": {
       "Ayr": "Heavy (Soft in places)",
       "Bath": "Good",
       "Market Rasen": "Good",
       "Southwell": "Standard",
-      "Thurles": "Good to Yielding",
+      "Thurles": "Good to Yielding (Yielding in places)",
       "Tramore": "Yielding"
     },
     "2026-10-09": {
@@ -43,7 +43,7 @@
     },
     "2026-10-13": {
       "Hereford": "Good to firm",
-      "Leicester": "Good",
+      "Leicester": "Good to soft",
       "Southwell": "Good",
       "Wolverhampton": "Standard"
     }
