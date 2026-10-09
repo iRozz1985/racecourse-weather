@@ -1,13 +1,13 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-09T09:08:35",
+  "fetched_at": "2026-10-09T09:42:22",
   "going": {
     "2026-10-09": {
       "Newmarket": "Good",
       "York": "Good to Soft (Good in places)",
       "Chepstow": "Good to Soft (Good in places)",
       "Kempton Park": "Standard / Slow",
-      "Downpatrick": "Good",
+      "Downpatrick": "Good to Yielding",
       "Dundalk": "Standard"
     },
     "2026-10-10": {
@@ -17,7 +17,7 @@
       "Hexham": "Good",
       "Southwell": "Standard",
       "Fairyhouse": "Good",
-      "Naas": "Soft"
+      "Naas": "Soft-soft to heavy in places"
     },
     "2026-10-11": {
       "Goodwood": "Good to soft-good in places",
