@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-09T13:10:38",
+  "fetched_at": "2026-10-09T13:43:23",
   "going": {
     "2026-10-09": {
       "Newmarket": "Good",
@@ -48,7 +48,11 @@
       "Ffos Las": "Good to soft-soft in places"
     },
     "2026-10-15": {
-      "Curragh": "Straight: good to yielding; round: good"
+      "Brighton": "Soft-good to soft in places",
+      "Fontwell Park": "Good-good to soft in places",
+      "Southwell": "Standard",
+      "Curragh": "Straight: good to yielding; round: good",
+      "Perth": "Good to soft-soft in places"
     }
   }
 }
