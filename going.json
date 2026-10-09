@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-09T16:42:06",
+  "fetched_at": "2026-10-09T17:07:08",
   "going": {
     "2026-10-09": {
       "Newmarket": "Good to Soft",
@@ -26,33 +26,33 @@
       "Cork": "Good-good to yielding in places"
     },
     "2026-10-12": {
-      "Kempton Park": "Standard to slow",
-      "Newcastle": "Standard",
+      "Musselburgh": "Good",
       "Worcester": "Good-good to soft in places",
       "Yarmouth": "Good to firm",
-      "Roscommon": "Yielding to soft",
-      "Musselburgh": "Good"
+      "Kempton Park": "Standard to slow",
+      "Newcastle": "Standard",
+      "Roscommon": "Yielding to soft"
     },
     "2026-10-13": {
-      "Hereford": "Good to firm",
       "Leicester": "Good to soft",
+      "Hereford": "Good to firm",
       "Southwell": "Good",
       "Wolverhampton": "Standard",
       "Punchestown": "Good-good to firm in places"
     },
     "2026-10-14": {
-      "Kempton Park": "Standard to slow",
       "Nottingham": "Good to soft-soft in places",
       "Wetherby": "Good to firm-good in places",
-      "Punchestown": "Good-good to firm in places",
-      "Ffos Las": "Good to soft-soft in places"
+      "Ffos Las": "Good to soft-soft in places",
+      "Kempton Park": "Standard to slow",
+      "Punchestown": "Good-good to firm in places"
     },
     "2026-10-15": {
       "Brighton": "Soft-good to soft in places",
+      "Perth": "Good to soft-soft in places",
       "Fontwell Park": "Good-good to soft in places",
       "Southwell": "Standard",
-      "Curragh": "Straight: good to yielding; round: good",
-      "Perth": "Good to soft-soft in places"
+      "Curragh": "Straight: good to yielding; round: good"
     }
   }
 }
