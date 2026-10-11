@@ -1,10 +1,10 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-11T07:07:49",
+  "fetched_at": "2026-10-11T07:40:22",
   "going": {
     "2026-10-11": {
-      "Goodwood": "Good to soft-soft in places",
-      "Chepstow": "Good to soft-good in places",
+      "Goodwood": "Good to Soft",
+      "Chepstow": "Good to Soft (Good in places)",
       "Naas": "Soft",
       "Cork": "Good-good to yielding in places"
     },
