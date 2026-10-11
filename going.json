@@ -1,12 +1,12 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-11T08:06:27",
+  "fetched_at": "2026-10-11T08:41:48",
   "going": {
     "2026-10-11": {
       "Goodwood": "Good to Soft",
       "Chepstow": "Good to Soft (Good in places)",
       "Naas": "Soft",
-      "Cork": "Good-good to yielding in places"
+      "Cork": "Good"
     },
     "2026-10-12": {
       "Musselburgh": "Good to soft",
@@ -38,6 +38,9 @@
       "Curragh": "Straight: good to yielding; round: good"
     },
     "2026-10-16": {
+      "Haydock Park": "Heavy",
+      "Newcastle": "Standard",
+      "Redcar": "Good",
       "Uttoxeter": "Good"
     }
   }
