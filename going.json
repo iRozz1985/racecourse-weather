@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-11T07:40:22",
+  "fetched_at": "2026-10-11T08:06:27",
   "going": {
     "2026-10-11": {
       "Goodwood": "Good to Soft",
@@ -10,7 +10,7 @@
     },
     "2026-10-12": {
       "Musselburgh": "Good to soft",
-      "Worcester": "Good-good to soft in places",
+      "Worcester": "Good",
       "Yarmouth": "Good to soft-good in places",
       "Kempton Park": "Standard to slow",
       "Newcastle": "Standard",
@@ -36,6 +36,9 @@
       "Fontwell Park": "Good-good to soft in places",
       "Southwell": "Standard",
       "Curragh": "Straight: good to yielding; round: good"
+    },
+    "2026-10-16": {
+      "Uttoxeter": "Good"
     }
   }
 }
