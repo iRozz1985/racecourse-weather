@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-12T16:08:50",
+  "fetched_at": "2026-10-12T16:42:15",
   "going": {
     "2026-10-12": {
       "Musselburgh": "Good to Soft",
@@ -33,9 +33,9 @@
     },
     "2026-10-16": {
       "Haydock Park": "Heavy",
-      "Newcastle": "Standard",
       "Redcar": "Good",
       "Uttoxeter": "Good",
+      "Newcastle": "Standard",
       "Dundalk": "Standard"
     },
     "2026-10-17": {
@@ -43,8 +43,8 @@
       "Catterick": "Good to soft-good in places",
       "Market Rasen": "Good",
       "Newton Abbot": "Good",
-      "Southwell": "Standard",
-      "Stratford-on-Avon": "Good to firm"
+      "Stratford-on-Avon": "Good to firm",
+      "Southwell": "Standard"
     },
     "2026-10-18": {
       "Sedgefield": "Good"
