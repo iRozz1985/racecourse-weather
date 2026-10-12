@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-12T11:44:57",
+  "fetched_at": "2026-10-12T12:13:22",
   "going": {
     "2026-10-12": {
       "Musselburgh": "Good to Soft",
@@ -35,7 +35,8 @@
       "Haydock Park": "Heavy",
       "Newcastle": "Standard",
       "Redcar": "Good",
-      "Uttoxeter": "Good"
+      "Uttoxeter": "Good",
+      "Dundalk": "Standard"
     }
   }
 }
