@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-13T11:43:32",
+  "fetched_at": "2026-10-13T12:10:59",
   "going": {
     "2026-10-13": {
       "Leicester": "Good to Soft",
@@ -36,10 +36,12 @@
       "Market Rasen": "Good",
       "Newton Abbot": "Good",
       "Stratford-on-Avon": "Good to firm",
-      "Southwell": "Standard"
+      "Southwell": "Standard",
+      "Limerick": "Good to yielding-good in places"
     },
     "2026-10-18": {
-      "Sedgefield": "Good"
+      "Sedgefield": "Good",
+      "Leopardstown": "Good"
     }
   }
 }
