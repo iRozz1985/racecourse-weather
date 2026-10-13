@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-13T13:49:31",
+  "fetched_at": "2026-10-13T14:12:21",
   "going": {
     "2026-10-13": {
       "Leicester": "Good to Soft",
@@ -44,6 +44,13 @@
       "Sedgefield": "Good",
       "Leopardstown": "Good",
       "Limerick": "Good - yielding"
+    },
+    "2026-10-19": {
+      "Bath": "Good",
+      "Plumpton": "Good-good to firm in places on chase course",
+      "Pontefract": "Good to soft",
+      "Southwell": "Standard",
+      "Wolverhampton": "Standard"
     }
   }
 }
