@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-14T10:25:29",
+  "fetched_at": "2026-10-14T10:58:11",
   "going": {
     "2026-10-14": {
       "Nottingham": "Good to Soft",
@@ -11,7 +11,7 @@
     },
     "2026-10-15": {
       "Brighton": "Good-good to soft in places",
-      "Perth": "Soft-good to soft in places",
+      "Perth": "Good to soft-soft in places",
       "Fontwell Park": "Good to soft-good in places on hurdle course",
       "Southwell": "Standard",
       "Curragh": "Straight: yielding; round: good to yielding"
@@ -35,8 +35,8 @@
     },
     "2026-10-18": {
       "Sedgefield": "Good",
-      "Leopardstown": "Good",
-      "Limerick": "Good - yielding"
+      "Leopardstown": "Good-yielding in places",
+      "Limerick": "Good to yielding-good in places"
     },
     "2026-10-19": {
       "Pontefract": "Good to soft",
