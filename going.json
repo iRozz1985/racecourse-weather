@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-14T11:56:52",
+  "fetched_at": "2026-10-14T12:25:25",
   "going": {
     "2026-10-14": {
       "Nottingham": "Good to Soft",
@@ -43,7 +43,8 @@
       "Bath": "Good",
       "Plumpton": "Good-good to firm in places on chase course",
       "Southwell": "Standard",
-      "Wolverhampton": "Standard"
+      "Wolverhampton": "Standard",
+      "Gowran Park": "Yielding - soft"
     }
   }
 }
