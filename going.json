@@ -1,11 +1,11 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-14T12:25:25",
+  "fetched_at": "2026-10-14T13:08:10",
   "going": {
     "2026-10-14": {
       "Nottingham": "Good to Soft",
       "Wetherby": "Good to Firm (Good in places)",
-      "Ffos Las": "Good to Soft (Soft in places)",
+      "Ffos Las": "Soft (Good to Soft in places)",
       "Kempton Park": "Standard / Slow",
       "Punchestown": "Good"
     },
@@ -44,7 +44,12 @@
       "Plumpton": "Good-good to firm in places on chase course",
       "Southwell": "Standard",
       "Wolverhampton": "Standard",
-      "Gowran Park": "Yielding - soft"
+      "Gowran Park": "Yielding to soft"
+    },
+    "2026-10-20": {
+      "Hexham": "Good-good to firm in places",
+      "Newcastle": "Standard",
+      "Yarmouth": "Good-good to soft in places"
     }
   }
 }
