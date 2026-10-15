@@ -1,13 +1,13 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-15T12:24:15",
+  "fetched_at": "2026-10-15T13:12:18",
   "going": {
     "2026-10-15": {
       "Brighton": "Good (Good to Soft in places)",
       "Perth": "Soft (Good to Soft in places)",
-      "Fontwell Park": "Good to Soft (Good in places)",
+      "Fontwell Park": "Good to Soft",
       "Southwell": "Standard",
-      "Curragh": "Soft"
+      "Curragh": "Yielding to Soft"
     },
     "2026-10-16": {
       "Haydock Park": "Heavy",
@@ -51,6 +51,9 @@
       "Newmarket": "Good",
       "Worcester": "Good-good to soft in places",
       "Navan": "Yielding"
+    },
+    "2026-10-22": {
+      "Clonmel": "Good"
     }
   }
 }
