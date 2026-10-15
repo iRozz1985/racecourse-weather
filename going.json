@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-15T11:56:36",
+  "fetched_at": "2026-10-15T12:24:15",
   "going": {
     "2026-10-15": {
       "Brighton": "Good (Good to Soft in places)",
@@ -42,7 +42,15 @@
     "2026-10-20": {
       "Hexham": "Good-good to firm in places",
       "Newcastle": "Standard",
-      "Yarmouth": "Good"
+      "Yarmouth": "Good",
+      "Curragh": "Soft"
+    },
+    "2026-10-21": {
+      "Fontwell Park": "Good to soft-good in places on hurdle course",
+      "Kempton Park": "Standard to slow",
+      "Newmarket": "Good",
+      "Worcester": "Good-good to soft in places",
+      "Navan": "Yielding"
     }
   }
 }
