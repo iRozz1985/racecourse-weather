@@ -1,13 +1,13 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-15T07:12:21",
+  "fetched_at": "2026-10-15T08:00:14",
   "going": {
     "2026-10-15": {
-      "Brighton": "Good-good to soft in places",
-      "Perth": "Good to soft-soft in places",
-      "Fontwell Park": "Good to soft-good in places on hurdle course",
+      "Brighton": "Good (Good to Soft in places)",
+      "Perth": "Good to Soft (Soft in places)",
+      "Fontwell Park": "Good to Soft (Good in places)",
       "Southwell": "Standard",
-      "Curragh": "Straight: yielding; round: good to yielding"
+      "Curragh": "Yielding to Soft"
     },
     "2026-10-16": {
       "Haydock Park": "Heavy",
