@@ -1,11 +1,11 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-15T14:59:12",
+  "fetched_at": "2026-10-15T15:31:04",
   "going": {
     "2026-10-15": {
       "Brighton": "Good (Good to Soft in places)",
       "Perth": "Soft (Good to Soft in places)",
-      "Fontwell Park": "Good to Soft",
+      "Fontwell Park": "Good to Soft (Good in places)",
       "Southwell": "Standard",
       "Curragh": "Soft"
     },
