@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-16T16:21:46",
+  "fetched_at": "2026-10-16T16:57:36",
   "going": {
     "2026-10-16": {
       "Haydock Park": "Heavy",
@@ -46,6 +46,7 @@
       "Navan": "Yielding"
     },
     "2026-10-22": {
+      "Carlisle": "Chase: good to firm-good in places; hurdle: good",
       "Newmarket": "Good",
       "Southwell": "Standard",
       "Clonmel": "Good",
