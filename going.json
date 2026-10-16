@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-16T14:58:06",
+  "fetched_at": "2026-10-16T15:22:51",
   "going": {
     "2026-10-16": {
       "Haydock Park": "Heavy",
@@ -46,7 +46,10 @@
       "Navan": "Yielding"
     },
     "2026-10-22": {
-      "Clonmel": "Good"
+      "Newmarket": "Good",
+      "Southwell": "Standard",
+      "Clonmel": "Good",
+      "Ffos Las": "Soft"
     }
   }
 }
