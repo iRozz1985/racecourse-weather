@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-17T10:13:18",
+  "fetched_at": "2026-10-17T10:49:55",
   "going": {
     "2026-10-17": {
       "Ascot": "Good",
@@ -43,7 +43,7 @@
       "Newmarket": "Good",
       "Southwell": "Standard",
       "Clonmel": "Good",
-      "Ffos Las": "Soft"
+      "Ffos Las": "Soft-good to soft in places on hurdle course"
     }
   }
 }
