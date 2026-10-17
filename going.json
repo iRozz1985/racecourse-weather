@@ -1,21 +1,21 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-17T07:05:24",
+  "fetched_at": "2026-10-17T07:52:36",
   "going": {
     "2026-10-17": {
       "Ascot": "Good",
-      "Catterick": "Good to soft-good in places",
-      "Market Rasen": "Good-good to soft in places",
-      "Newton Abbot": "Good-good to soft in places",
-      "Stratford-on-Avon": "Good-good to firm in places",
+      "Catterick": "Good to Soft (Good in places)",
+      "Market Rasen": "Good (Good to Soft in places)",
+      "Newton Abbot": "Good (Good to Soft in places)",
+      "Stratford-on-Avon": "Good (Good to Firm in places)",
       "Southwell": "Standard",
-      "Leopardstown": "Good-yielding in places",
-      "Limerick": "Yielding"
+      "Leopardstown": "Good (Yielding in places)",
+      "Limerick": "Yielding (Yielding to Soft in places)"
     },
     "2026-10-18": {
       "Sedgefield": "Good",
       "Leopardstown": "Good-yielding in places",
-      "Limerick": "Yielding"
+      "Limerick": "Yielding-yielding to soft in places"
     },
     "2026-10-19": {
       "Pontefract": "Good to soft",
