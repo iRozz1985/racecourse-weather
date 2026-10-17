@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-17T12:13:21",
+  "fetched_at": "2026-10-17T12:59:18",
   "going": {
     "2026-10-17": {
       "Ascot": "Good",
@@ -10,7 +10,7 @@
       "Stratford-on-Avon": "Good (Good to Firm in places)",
       "Southwell": "Standard",
       "Leopardstown": "Good (Yielding in places)",
-      "Limerick": "Yielding"
+      "Limerick": "Good to Yielding (Yielding in places)"
     },
     "2026-10-18": {
       "Sedgefield": "Good",
@@ -44,6 +44,12 @@
       "Southwell": "Standard",
       "Clonmel": "Good",
       "Ffos Las": "Soft-good to soft in places on hurdle course"
+    },
+    "2026-10-23": {
+      "Cheltenham": "Good-good to firm in places",
+      "Doncaster": "Good to soft",
+      "Newbury": "Good-good to soft in places",
+      "Wolverhampton": "Standard"
     }
   }
 }
