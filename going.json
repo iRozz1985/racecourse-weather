@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-17T09:14:32",
+  "fetched_at": "2026-10-17T09:51:24",
   "going": {
     "2026-10-17": {
       "Ascot": "Good",
@@ -18,9 +18,9 @@
       "Limerick": "Yielding-yielding to soft in places"
     },
     "2026-10-19": {
-      "Pontefract": "Good to soft",
+      "Pontefract": "Good to soft-soft in places",
       "Bath": "Good",
-      "Plumpton": "Good-good to firm in places on chase course",
+      "Plumpton": "Chase: good-good to firm in places; hurdle: good-good to soft in places",
       "Southwell": "Standard",
       "Wolverhampton": "Standard",
       "Gowran Park": "Yielding to soft"
