@@ -1,11 +1,11 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-18T07:04:29",
+  "fetched_at": "2026-10-18T07:52:20",
   "going": {
     "2026-10-18": {
       "Sedgefield": "Good",
-      "Leopardstown": "Good-yielding in places",
-      "Limerick": "Yielding-yielding to soft in places"
+      "Leopardstown": "Good (Yielding in places)",
+      "Limerick": "Good to Yielding (Good in places)"
     },
     "2026-10-19": {
       "Pontefract": "Good to soft-soft in places",
