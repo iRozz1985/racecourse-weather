@@ -1,14 +1,14 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-19T12:35:42",
+  "fetched_at": "2026-10-19T13:34:49",
   "going": {
     "2026-10-19": {
-      "Pontefract": "Soft",
+      "Pontefract": "Heavy",
       "Bath": "Good to Soft (Good in places)",
-      "Plumpton": "Good (Good to Soft in places)",
+      "Plumpton": "Good (Good to Firm in places)",
       "Southwell": "Standard",
       "Wolverhampton": "Standard",
-      "Gowran Park": "Yielding"
+      "Gowran Park": "Soft"
     },
     "2026-10-20": {
       "Hexham": "Good",
@@ -35,7 +35,19 @@
       "Doncaster": "Good to soft",
       "Newbury": "Good-good to soft in places",
       "Wolverhampton": "Standard",
-      "Dundalk": "Standard"
+      "Dundalk": "Standard",
+      "Sligo": "Good-good to yielding in places"
+    },
+    "2026-10-24": {
+      "Cheltenham": "Good",
+      "Doncaster": "Good to soft",
+      "Newbury": "Good-good to soft in places",
+      "Southwell": "Standard",
+      "Kelso": "Good to firm-good in places"
+    },
+    "2026-10-25": {
+      "Aintree": "Good",
+      "Market Rasen": "Good to soft-good in places"
     }
   }
 }
