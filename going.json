@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-20T11:22:03",
+  "fetched_at": "2026-10-20T11:56:58",
   "going": {
     "2026-10-20": {
       "Hexham": "Good",
@@ -35,6 +35,7 @@
       "Doncaster": "Good to soft-soft in places",
       "Newbury": "Good-good to soft in places",
       "Southwell": "Standard",
+      "Galway": "Yielding",
       "Kelso": "Good-good to firm in places"
     },
     "2026-10-25": {
