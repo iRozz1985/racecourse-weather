@@ -1,26 +1,26 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-20T15:01:21",
+  "fetched_at": "2026-10-20T15:59:04",
   "going": {
     "2026-10-20": {
+      "Yarmouth": "Soft",
       "Hexham": "Good (Good to Soft in places)",
       "Newcastle": "Standard",
-      "Yarmouth": "Soft",
       "Curragh": "Yielding"
     },
     "2026-10-21": {
-      "Fontwell Park": "Good to soft-good in places on hurdle course",
-      "Kempton Park": "Standard to slow",
       "Newmarket": "Good to soft",
+      "Fontwell Park": "Good to soft-good in places on hurdle course",
       "Worcester": "Good to soft-good in places",
+      "Kempton Park": "Standard to slow",
       "Navan": "Yielding"
     },
     "2026-10-22": {
       "Carlisle": "Chase: good to firm-good in places; hurdle: good",
       "Newmarket": "Good to soft",
+      "Ffos Las": "Good to soft-soft in places",
       "Southwell": "Standard",
-      "Clonmel": "Good-good to yielding in places on hurdle course",
-      "Ffos Las": "Good to soft-soft in places"
+      "Clonmel": "Good-good to yielding in places on hurdle course"
     },
     "2026-10-23": {
       "Cheltenham": "Good-good to firm in places",
@@ -34,9 +34,9 @@
       "Cheltenham": "Good",
       "Doncaster": "Good to soft-soft in places",
       "Newbury": "Good-good to soft in places",
+      "Kelso": "Good-good to firm in places",
       "Southwell": "Standard",
-      "Galway": "Yielding",
-      "Kelso": "Good-good to firm in places"
+      "Galway": "Yielding"
     },
     "2026-10-25": {
       "Aintree": "Good",
@@ -45,10 +45,10 @@
       "Wexford": "Good - yielding"
     },
     "2026-10-26": {
+      "Redcar": "Good",
+      "Leicester": "Good to soft-soft in places",
       "Hereford": "Good to firm",
       "Kempton Park": "Standard to slow",
-      "Leicester": "Good to soft-soft in places",
-      "Redcar": "Good",
       "Southwell": "Standard"
     }
   }
