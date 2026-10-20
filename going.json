@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-20T09:01:39",
+  "fetched_at": "2026-10-20T09:57:44",
   "going": {
     "2026-10-20": {
       "Hexham": "Good",
@@ -17,10 +17,10 @@
     },
     "2026-10-22": {
       "Carlisle": "Chase: good to firm-good in places; hurdle: good",
-      "Newmarket": "Good",
+      "Newmarket": "Good to soft",
       "Southwell": "Standard",
-      "Clonmel": "Good",
-      "Ffos Las": "Soft-good to soft in places on hurdle course"
+      "Clonmel": "Good-good to yielding in places on hurdle course",
+      "Ffos Las": "Chase: soft-good to soft in places; hurdle: good to soft-soft in places"
     },
     "2026-10-23": {
       "Cheltenham": "Good-good to firm in places",
