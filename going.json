@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-20T12:25:01",
+  "fetched_at": "2026-10-20T13:12:45",
   "going": {
     "2026-10-20": {
       "Hexham": "Good",
@@ -20,7 +20,7 @@
       "Newmarket": "Good to soft",
       "Southwell": "Standard",
       "Clonmel": "Good-good to yielding in places on hurdle course",
-      "Ffos Las": "Chase: soft-good to soft in places; hurdle: good to soft-soft in places"
+      "Ffos Las": "Good to soft-soft in places"
     },
     "2026-10-23": {
       "Cheltenham": "Good-good to firm in places",
@@ -43,6 +43,13 @@
       "Market Rasen": "Good to soft-good in places",
       "Galway": "Yielding",
       "Wexford": "Good - yielding"
+    },
+    "2026-10-26": {
+      "Hereford": "Good to firm",
+      "Kempton Park": "Standard to slow",
+      "Leicester": "Good to soft-soft in places",
+      "Redcar": "Good",
+      "Southwell": "Standard"
     }
   }
 }
