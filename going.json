@@ -1,10 +1,10 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-21T13:17:16",
+  "fetched_at": "2026-10-21T14:03:38",
   "going": {
     "2026-10-21": {
       "Newmarket": "Soft",
-      "Fontwell Park": "Soft",
+      "Fontwell Park": "Soft (Good to Soft in places)",
       "Worcester": "Good to Soft",
       "Kempton Park": "Standard / Slow",
       "Navan": "Yielding (Yielding to Soft in places)"
@@ -46,6 +46,12 @@
       "Southwell": "Standard",
       "Galway": "Soft",
       "Wexford": "Good to yielding"
+    },
+    "2026-10-27": {
+      "Catterick": "Good to soft-soft in places",
+      "Newcastle": "Good",
+      "Wolverhampton": "Standard",
+      "Bangor-on-Dee": "Good-good to soft in places"
     }
   }
 }
