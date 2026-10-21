@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-21T16:05:25",
+  "fetched_at": "2026-10-21T16:59:30",
   "going": {
     "2026-10-21": {
       "Newmarket": "Soft",
@@ -19,21 +19,21 @@
     "2026-10-23": {
       "Cheltenham": "Good",
       "Doncaster": "Soft-good to soft in places",
-      "Newbury": "Soft-good to soft in places (prec inspection 8am friday)",
+      "Newbury": "Soft-good to soft in places (prec inspection 8am)",
       "Wolverhampton": "Standard",
       "Dundalk": "Standard",
       "Sligo": "Good to yielding"
     },
     "2026-10-24": {
       "Cheltenham": "Good",
-      "Doncaster": "Good to soft-soft in places",
+      "Doncaster": "Soft-good to soft in places",
       "Newbury": "Good-good to soft in places",
       "Kelso": "Good-good to firm in places",
       "Southwell": "Standard",
       "Galway": "Yielding"
     },
     "2026-10-25": {
-      "Aintree": "Good",
+      "Aintree": "Good-good to soft in places",
       "Market Rasen": "Good to soft-good in places",
       "Galway": "Yielding",
       "Wexford": "Good to yielding"
