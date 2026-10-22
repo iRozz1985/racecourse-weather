@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-22T08:27:02",
+  "fetched_at": "2026-10-22T09:06:38",
   "going": {
     "2026-10-22": {
       "Carlisle": "Good",
@@ -10,12 +10,12 @@
       "Clonmel": "Good"
     },
     "2026-10-23": {
-      "Cheltenham": "Good",
+      "Cheltenham": "Good-good to soft in places",
       "Doncaster": "Soft-good to soft in places",
-      "Newbury": "Soft-good to soft in places (prec inspection 8am)",
       "Wolverhampton": "Standard",
       "Dundalk": "Standard",
-      "Sligo": "Good to yielding"
+      "Sligo": "Good to yielding",
+      "Newbury": "Soft-good to soft in places (prec inspection 8am)"
     },
     "2026-10-24": {
       "Cheltenham": "Good",
