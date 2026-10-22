@@ -1,11 +1,11 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-22T11:26:31",
+  "fetched_at": "2026-10-22T11:58:47",
   "going": {
     "2026-10-22": {
       "Carlisle": "Good",
       "Newmarket": "Soft",
-      "Ffos Las": "Good to Soft (Soft in places)",
+      "Ffos Las": "Soft (Good to Soft in places)",
       "Southwell": "Standard",
       "Clonmel": "Good to Yielding"
     },
@@ -45,6 +45,9 @@
       "Newcastle": "Good",
       "Wolverhampton": "Standard",
       "Bangor-on-Dee": "Good-good to soft in places"
+    },
+    "2026-10-28": {
+      "Dundalk": "Standard"
     }
   }
 }
