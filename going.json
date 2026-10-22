@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-22T12:32:30",
+  "fetched_at": "2026-10-22T13:34:20",
   "going": {
     "2026-10-22": {
       "Carlisle": "Good",
@@ -47,6 +47,10 @@
       "Bangor-on-Dee": "Good-good to soft in places"
     },
     "2026-10-28": {
+      "Huntingdon": "Good-good to firm in places",
+      "Kempton Park": "Standard to slow",
+      "Newton Abbot": "Good",
+      "Nottingham": "Soft",
       "Dundalk": "Standard"
     }
   }
