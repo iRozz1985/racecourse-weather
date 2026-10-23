@@ -1,13 +1,13 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-23T11:24:29",
+  "fetched_at": "2026-10-23T11:57:12",
   "going": {
     "2026-10-23": {
       "Cheltenham": "Good to Soft",
       "Doncaster": "Soft (Heavy in places)",
       "Wolverhampton": "Standard",
       "Dundalk": "Standard",
-      "Sligo": "Yielding (Soft in places)",
+      "Sligo": "Yielding (Yielding to Soft in places)",
       "Newbury": "Soft-good to soft in places (prec inspection 8am)"
     },
     "2026-10-24": {
