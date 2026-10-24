@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-24T09:18:12",
+  "fetched_at": "2026-10-24T09:54:48",
   "going": {
     "2026-10-24": {
       "Cheltenham": "Good",
@@ -22,7 +22,8 @@
       "Hereford": "Good to firm-good in places",
       "Kempton Park": "Standard to slow",
       "Southwell": "Standard",
-      "Wexford": "Good to yielding"
+      "Galway": "Soft-heavy in places on chase course",
+      "Wexford": "Soft"
     },
     "2026-10-27": {
       "Catterick": "Good to soft-soft in places",
