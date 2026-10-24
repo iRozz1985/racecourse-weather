@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-24T17:48:43",
+  "fetched_at": "2026-10-24T18:12:36",
   "going": {
     "2026-10-24": {
       "Cheltenham": "Good to Soft",
@@ -13,8 +13,8 @@
     "2026-10-25": {
       "Aintree": "Good to soft (prec inspection 8am)",
       "Market Rasen": "Good to soft-soft in places (prec inspection 8am)",
-      "Galway": "Soft-heavy in places on chase course",
-      "Wexford": "Soft"
+      "Galway": "Soft to heavy-heavy in places on chase course (inspection 8am)",
+      "Wexford": "Soft to heavy (inspection 8am)"
     },
     "2026-10-26": {
       "Redcar": "Soft",
