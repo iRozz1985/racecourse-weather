@@ -1,10 +1,10 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-24T06:18:03",
+  "fetched_at": "2026-10-24T07:08:41",
   "going": {
     "2026-10-24": {
-      "Cheltenham": "Good to soft",
-      "Doncaster": "Heavy-soft in places",
+      "Cheltenham": "Good",
+      "Doncaster": "Heavy",
       "Kelso": "Good",
       "Southwell": "Standard",
       "Galway": "Yielding-yielding to soft in places",
@@ -14,7 +14,7 @@
       "Aintree": "Good to soft-good in places",
       "Market Rasen": "Good to soft-soft in places",
       "Galway": "Hurdle: yielding to soft; chase: soft",
-      "Wexford": "Good to yielding"
+      "Wexford": "Soft"
     },
     "2026-10-26": {
       "Redcar": "Good to soft",
