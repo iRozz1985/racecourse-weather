@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-24T07:08:41",
+  "fetched_at": "2026-10-24T07:56:04",
   "going": {
     "2026-10-24": {
       "Cheltenham": "Good",
@@ -11,7 +11,7 @@
       "Newbury": "Soft-heavy in places (inspection 8am friday)"
     },
     "2026-10-25": {
-      "Aintree": "Good to soft-good in places",
+      "Aintree": "Good to soft (prec inspection 8am)",
       "Market Rasen": "Good to soft-soft in places",
       "Galway": "Hurdle: yielding to soft; chase: soft",
       "Wexford": "Soft"
