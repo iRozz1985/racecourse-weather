@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-24T11:53:51",
+  "fetched_at": "2026-10-24T12:16:28",
   "going": {
     "2026-10-24": {
       "Cheltenham": "Good",
@@ -44,6 +44,12 @@
       "Southwell": "Standard",
       "Stratford-on-Avon": "Soft",
       "Ffos Las": "Good-good to firm in places"
+    },
+    "2026-10-30": {
+      "Newcastle": "Standard",
+      "Newmarket": "Good to soft-soft in places",
+      "Uttoxeter": "Good to soft-good in places",
+      "Wetherby": "Good"
     }
   }
 }
