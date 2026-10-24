@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-24T09:54:48",
+  "fetched_at": "2026-10-24T10:16:07",
   "going": {
     "2026-10-24": {
       "Cheltenham": "Good",
@@ -17,8 +17,8 @@
       "Wexford": "Soft"
     },
     "2026-10-26": {
-      "Redcar": "Good to soft",
-      "Leicester": "Soft-good to soft in places",
+      "Redcar": "Soft",
+      "Leicester": "Heavy",
       "Hereford": "Good to firm-good in places",
       "Kempton Park": "Standard to slow",
       "Southwell": "Standard",
