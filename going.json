@@ -1,12 +1,12 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-25T07:56:55",
+  "fetched_at": "2026-10-25T08:18:06",
   "going": {
     "2026-10-25": {
       "Aintree": "Good to soft (prec inspection 8am)",
       "Market Rasen": "Good to Soft (Soft in places)",
-      "Galway": "Soft to heavy-heavy in places on chase course (inspection 8am)",
-      "Wexford": "Soft to heavy (inspection 8am)"
+      "Galway": "Soft to Heavy",
+      "Wexford": "Soft"
     },
     "2026-10-26": {
       "Redcar": "Soft",
@@ -14,8 +14,8 @@
       "Hereford": "Good to firm-good in places",
       "Kempton Park": "Standard to slow",
       "Southwell": "Standard",
-      "Galway": "Soft-heavy in places on chase course",
-      "Wexford": "Soft"
+      "Galway": "Soft to heavy-heavy in places on chase course",
+      "Wexford": "Soft to heavy"
     },
     "2026-10-27": {
       "Catterick": "Good to soft-soft in places",
