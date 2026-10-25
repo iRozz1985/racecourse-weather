@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-25T08:18:06",
+  "fetched_at": "2026-10-25T08:55:22",
   "going": {
     "2026-10-25": {
       "Aintree": "Good to soft (prec inspection 8am)",
@@ -14,8 +14,8 @@
       "Hereford": "Good to firm-good in places",
       "Kempton Park": "Standard to slow",
       "Southwell": "Standard",
-      "Galway": "Soft to heavy-heavy in places on chase course",
-      "Wexford": "Soft to heavy"
+      "Galway": "Chase: soft to heavy; hurdle: soft",
+      "Wexford": "Soft"
     },
     "2026-10-27": {
       "Catterick": "Good to soft-soft in places",
@@ -25,7 +25,7 @@
       "Bangor-on-Dee": "Good-good to soft in places"
     },
     "2026-10-28": {
-      "Huntingdon": "Good-good to firm in places",
+      "Huntingdon": "Good-good to firm in places on hurdle course",
       "Kempton Park": "Standard to slow",
       "Newton Abbot": "Good to soft",
       "Nottingham": "Heavy",
