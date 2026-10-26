@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-26T13:43:21",
+  "fetched_at": "2026-10-26T15:26:59",
   "going": {
     "2026-10-26": {
       "Redcar": "Heavy",
@@ -8,7 +8,7 @@
       "Hereford": "Good to Firm (Good in places)",
       "Kempton Park": "Standard / Slow",
       "Southwell": "Standard",
-      "Galway": "Soft to Heavy",
+      "Galway": "Heavy",
       "Wexford": "Soft"
     },
     "2026-10-27": {
@@ -20,7 +20,7 @@
     },
     "2026-10-28": {
       "Huntingdon": "Good-good to firm in places on hurdle course",
-      "Nottingham": "Soft-heavy in places",
+      "Nottingham": "Soft-heavy in places (prec inspection 8am tuesday)",
       "Newton Abbot": "Good to soft-soft in places",
       "Kempton Park": "Standard to slow",
       "Dundalk": "Standard"
@@ -36,7 +36,20 @@
       "Newmarket": "Good to soft-soft in places",
       "Uttoxeter": "Good to soft-good in places",
       "Newcastle": "Standard",
-      "Dundalk": "Standard"
+      "Dundalk": "Standard",
+      "Down Royal": "Yielding-good to yielding in places"
+    },
+    "2026-10-31": {
+      "Ascot": "Good-good to firm in places",
+      "Newmarket": "Good to soft-soft in places",
+      "Southwell": "Standard",
+      "Wetherby": "Good",
+      "Ayr": "Soft-good to soft in places"
+    },
+    "2026-11-01": {
+      "Carlisle": "Good to soft-soft in places",
+      "Huntingdon": "Good-good to firm in places on hurdle course",
+      "Worcester": "Good to soft-soft in places"
     }
   }
 }
