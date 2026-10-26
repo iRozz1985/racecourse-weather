@@ -1,12 +1,12 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-26T06:38:29",
+  "fetched_at": "2026-10-26T07:41:15",
   "going": {
     "2026-10-26": {
-      "Redcar": "Soft-heavy in places",
-      "Leicester": "Heavy",
-      "Hereford": "Good to firm-good in places",
-      "Kempton Park": "Standard to slow",
+      "Redcar": "Soft",
+      "Leicester": "Soft (Heavy in places)",
+      "Hereford": "Good to Firm (Good in places)",
+      "Kempton Park": "Standard / Slow",
       "Southwell": "Standard",
       "Galway": "Chase: soft to heavy; hurdle: soft",
       "Wexford": "Soft"
