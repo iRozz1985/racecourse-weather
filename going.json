@@ -1,9 +1,9 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-26T11:04:44",
+  "fetched_at": "2026-10-26T13:43:21",
   "going": {
     "2026-10-26": {
-      "Redcar": "Soft",
+      "Redcar": "Heavy",
       "Leicester": "Soft (Heavy in places)",
       "Hereford": "Good to Firm (Good in places)",
       "Kempton Park": "Standard / Slow",
@@ -12,30 +12,31 @@
       "Wexford": "Soft"
     },
     "2026-10-27": {
+      "Bangor-on-Dee": "Good to soft-good in places",
       "Catterick": "Soft",
-      "Newcastle": "Good-good to soft in places",
       "Wolverhampton": "Standard",
-      "Galway": "Heavy",
-      "Bangor-on-Dee": "Good to soft-good in places"
+      "Newcastle": "Good-good to soft in places",
+      "Galway": "Heavy"
     },
     "2026-10-28": {
       "Huntingdon": "Good-good to firm in places on hurdle course",
-      "Kempton Park": "Standard to slow",
-      "Newton Abbot": "Good to soft-soft in places",
       "Nottingham": "Soft-heavy in places",
+      "Newton Abbot": "Good to soft-soft in places",
+      "Kempton Park": "Standard to slow",
       "Dundalk": "Standard"
     },
     "2026-10-29": {
-      "Bath": "Soft-heavy in places",
-      "Southwell": "Standard",
+      "Ffos Las": "Good-good to firm in places",
       "Stratford-on-Avon": "Soft",
-      "Ffos Las": "Good-good to firm in places"
+      "Bath": "Soft-heavy in places",
+      "Southwell": "Standard"
     },
     "2026-10-30": {
-      "Newcastle": "Standard",
+      "Wetherby": "Good",
       "Newmarket": "Good to soft-soft in places",
       "Uttoxeter": "Good to soft-good in places",
-      "Wetherby": "Good"
+      "Newcastle": "Standard",
+      "Dundalk": "Standard"
     }
   }
 }
