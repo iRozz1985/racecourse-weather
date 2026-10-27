@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-27T08:09:16",
+  "fetched_at": "2026-10-27T09:06:58",
   "going": {
     "2026-10-27": {
       "Bangor-on-Dee": "Good (Good to Soft in places)",
@@ -31,11 +31,11 @@
       "Down Royal": "Yielding-good to yielding in places"
     },
     "2026-10-31": {
+      "Wetherby": "Good",
       "Ascot": "Good-good to firm in places",
       "Newmarket": "Good to soft-soft in places",
-      "Southwell": "Standard",
-      "Wetherby": "Good",
-      "Ayr": "Soft-good to soft in places"
+      "Ayr": "Soft-good to soft in places",
+      "Southwell": "Standard"
     },
     "2026-11-01": {
       "Carlisle": "Good to soft-soft in places",
