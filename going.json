@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-27T11:03:01",
+  "fetched_at": "2026-10-27T11:59:28",
   "going": {
     "2026-10-27": {
       "Bangor-on-Dee": "Good (Good to Soft in places)",
@@ -17,9 +17,9 @@
       "Dundalk": "Standard"
     },
     "2026-10-29": {
-      "Ffos Las": "Good-good to firm in places",
-      "Stratford-on-Avon": "Soft",
-      "Bath": "Soft-heavy in places",
+      "Ffos Las": "Good",
+      "Stratford-on-Avon": "Soft-good to soft in places",
+      "Bath": "Heavy",
       "Southwell": "Standard"
     },
     "2026-10-30": {
