@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-27T09:06:58",
+  "fetched_at": "2026-10-27T10:05:39",
   "going": {
     "2026-10-27": {
       "Bangor-on-Dee": "Good (Good to Soft in places)",
@@ -11,8 +11,8 @@
     },
     "2026-10-28": {
       "Huntingdon": "Good-good to firm in places on hurdle course",
-      "Nottingham": "Soft-heavy in places (prec inspection 8am tuesday)",
-      "Newton Abbot": "Soft-good to soft in places",
+      "Nottingham": "Heavy-soft in places",
+      "Newton Abbot": "Soft-good to soft in places (inspection 8am)",
       "Kempton Park": "Standard to slow",
       "Dundalk": "Standard"
     },
