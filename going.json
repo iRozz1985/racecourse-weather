@@ -1,9 +1,9 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-27T14:37:24",
+  "fetched_at": "2026-10-27T15:35:56",
   "going": {
     "2026-10-27": {
-      "Bangor-on-Dee": "Good (Good to Soft in places)",
+      "Bangor-on-Dee": "Good to Soft (Good in places)",
       "Catterick": "Soft",
       "Wolverhampton": "Standard",
       "Newcastle": "Good (Good to Soft in places)",
@@ -44,6 +44,12 @@
       "Worcester": "Good to soft-soft in places",
       "Cork": "Soft",
       "Curragh": "Soft-soft to heavy in places"
+    },
+    "2026-11-02": {
+      "Chelmsford City": "Standard",
+      "Plumpton": "Hurdle: good to soft; chase: good-good to soft in places",
+      "Southwell": "Good-good to soft in places",
+      "Wolverhampton": "Standard"
     }
   }
 }
