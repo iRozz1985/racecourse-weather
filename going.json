@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-28T10:13:15",
+  "fetched_at": "2026-10-28T11:08:19",
   "going": {
     "2026-10-28": {
       "Huntingdon": "Good",
@@ -12,16 +12,17 @@
     "2026-10-29": {
       "Ffos Las": "Good",
       "Stratford-on-Avon": "Soft-good to soft in places",
-      "Bath": "Heavy",
-      "Southwell": "Standard"
+      "Bath": "Heavy-soft in places",
+      "Southwell": "Standard",
+      "Punchestown": "Yielding to soft-yielding in places"
     },
     "2026-10-30": {
-      "Wetherby": "Good",
-      "Newmarket": "Good to soft-soft in places",
-      "Uttoxeter": "Good to soft-good in places",
+      "Wetherby": "Good-good to firm in places",
+      "Newmarket": "Good to soft",
+      "Uttoxeter": "Good",
       "Newcastle": "Standard",
       "Dundalk": "Standard",
-      "Down Royal": "Yielding-good to yielding in places"
+      "Down Royal": "Hurdle: yielding-yielding to soft in places; chase: yielding-good to yielding in places"
     },
     "2026-10-31": {
       "Wetherby": "Good",
