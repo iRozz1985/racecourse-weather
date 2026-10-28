@@ -1,11 +1,11 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-28T09:14:42",
+  "fetched_at": "2026-10-28T10:13:15",
   "going": {
     "2026-10-28": {
-      "Huntingdon": "Good (Good to Firm in places)",
+      "Huntingdon": "Good",
       "Nottingham": "Soft (Heavy in places)",
-      "Newton Abbot": "Soft (Good to Soft in places)",
+      "Newton Abbot": "Good to Soft (Soft in places)",
       "Kempton Park": "Standard / Slow",
       "Dundalk": "Standard"
     },
