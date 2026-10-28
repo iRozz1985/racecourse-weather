@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-28T16:15:46",
+  "fetched_at": "2026-10-28T17:15:06",
   "going": {
     "2026-10-28": {
       "Huntingdon": "Good",
@@ -10,7 +10,7 @@
       "Dundalk": "Standard"
     },
     "2026-10-29": {
-      "Ffos Las": "Good",
+      "Ffos Las": "Chase: good; hurdle: heavy-soft in places",
       "Stratford-on-Avon": "Soft-good to soft in places",
       "Bath": "Heavy-soft in places",
       "Southwell": "Standard",
@@ -43,6 +43,12 @@
       "Chelmsford City": "Standard",
       "Plumpton": "Hurdle: good to soft; chase: good-good to soft in places",
       "Southwell": "Good-good to soft in places",
+      "Wolverhampton": "Standard"
+    },
+    "2026-11-03": {
+      "Lingfield Park": "Good to soft",
+      "Sedgefield": "Good",
+      "Warwick": "Good",
       "Wolverhampton": "Standard"
     }
   }
