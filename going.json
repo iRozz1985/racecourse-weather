@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-28T12:07:13",
+  "fetched_at": "2026-10-28T13:28:12",
   "going": {
     "2026-10-28": {
       "Huntingdon": "Good",
@@ -30,13 +30,13 @@
       "Newmarket": "Good to soft-soft in places",
       "Ayr": "Soft-good to soft in places",
       "Southwell": "Standard",
-      "Down Royal": "Yielding-good to yielding in places"
+      "Down Royal": "Hurdle: yielding-yielding to soft in places; chase: yielding-good to yielding in places"
     },
     "2026-11-01": {
       "Carlisle": "Chase: good to soft-good in places; hurdle: good to soft-soft in places",
       "Huntingdon": "Good-good to firm in places on hurdle course",
       "Worcester": "Good to soft-soft in places",
-      "Cork": "Soft",
+      "Cork": "Yielding to soft",
       "Curragh": "Soft-soft to heavy in places"
     },
     "2026-11-02": {
