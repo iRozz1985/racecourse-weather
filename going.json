@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-29T13:30:24",
+  "fetched_at": "2026-10-29T14:42:40",
   "going": {
     "2026-10-29": {
       "Ffos Las": "Heavy (Soft in places)",
@@ -42,7 +42,15 @@
       "Lingfield Park": "Good to soft",
       "Sedgefield": "Good",
       "Warwick": "Good",
-      "Wolverhampton": "Standard"
+      "Wolverhampton": "Standard",
+      "Fairyhouse": "Yielding"
+    },
+    "2026-11-04": {
+      "Dundalk": "Standard",
+      "Wexford": "Soft"
+    },
+    "2026-11-05": {
+      "Clonmel": "Yielding"
     }
   }
 }
