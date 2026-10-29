@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-29T10:33:35",
+  "fetched_at": "2026-10-29T11:28:48",
   "going": {
     "2026-10-29": {
       "Ffos Las": "Heavy (Soft in places)",
@@ -18,10 +18,10 @@
       "Down Royal": "Hurdle: yielding-yielding to soft in places; chase: yielding-good to yielding in places"
     },
     "2026-10-31": {
-      "Wetherby": "Good",
-      "Ascot": "Good-good to firm in places",
-      "Newmarket": "Good to soft-soft in places",
-      "Ayr": "Soft-good to soft in places",
+      "Wetherby": "Good-good to firm in places",
+      "Ascot": "Chase: good-good to firm in places; hurdle: good to firm-good in places",
+      "Newmarket": "Good to soft",
+      "Ayr": "Good to soft-soft in places",
       "Southwell": "Standard",
       "Down Royal": "Hurdle: yielding-yielding to soft in places; chase: yielding-good to yielding in places"
     },
