@@ -1,9 +1,9 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-29T14:42:40",
+  "fetched_at": "2026-10-29T15:39:44",
   "going": {
     "2026-10-29": {
-      "Ffos Las": "Heavy (Soft in places)",
+      "Ffos Las": "Good",
       "Stratford-on-Avon": "Good to Soft (Soft in places)",
       "Bath": "Soft (Heavy in places)",
       "Southwell": "Standard",
@@ -46,8 +46,12 @@
       "Fairyhouse": "Yielding"
     },
     "2026-11-04": {
+      "Kempton Park": "Standard to slow",
+      "Nottingham": "Soft-heavy in places",
       "Dundalk": "Standard",
-      "Wexford": "Soft"
+      "Wexford": "Soft-soft to heavy in places",
+      "Chepstow": "Hurdle: soft; chase: good-good to firm in places",
+      "Musselburgh": "Soft"
     },
     "2026-11-05": {
       "Clonmel": "Yielding"
