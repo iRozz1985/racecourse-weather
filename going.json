@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-30T13:26:59",
+  "fetched_at": "2026-10-30T15:17:36",
   "going": {
     "2026-10-30": {
       "Wetherby": "Good (Good to Firm in places)",
@@ -8,7 +8,7 @@
       "Uttoxeter": "Good",
       "Newcastle": "Standard",
       "Dundalk": "Standard",
-      "Down Royal": "Yielding"
+      "Down Royal": "Good to Yielding"
     },
     "2026-10-31": {
       "Wetherby": "Good-good to firm in places",
@@ -47,6 +47,11 @@
       "Musselburgh": "Soft"
     },
     "2026-11-05": {
+      "Chelmsford City": "Standard",
+      "Newbury": "Good to soft-soft in places",
+      "Newcastle": "Good-good to soft in places",
+      "Plumpton": "Good-good to soft in places",
+      "Southwell": "Standard",
       "Clonmel": "Yielding"
     }
   }
