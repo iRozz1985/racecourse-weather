@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-30T07:47:19",
+  "fetched_at": "2026-10-30T08:40:20",
   "going": {
     "2026-10-30": {
       "Wetherby": "Good (Good to Firm in places)",
@@ -8,13 +8,13 @@
       "Uttoxeter": "Good",
       "Newcastle": "Standard",
       "Dundalk": "Standard",
-      "Down Royal": "Hurdle: yielding-yielding to soft in places; chase: yielding-good to yielding in places"
+      "Down Royal": "Yielding (Yielding to Soft in places)"
     },
     "2026-10-31": {
       "Wetherby": "Good-good to firm in places",
       "Ascot": "Chase: good-good to firm in places; hurdle: good to firm-good in places",
       "Newmarket": "Good to soft",
-      "Ayr": "Good to soft-soft in places",
+      "Ayr": "Good to soft",
       "Southwell": "Standard",
       "Down Royal": "Hurdle: yielding-yielding to soft in places; chase: yielding-good to yielding in places"
     },
