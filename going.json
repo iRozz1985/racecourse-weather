@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-30T10:34:56",
+  "fetched_at": "2026-10-30T11:24:20",
   "going": {
     "2026-10-30": {
       "Wetherby": "Good (Good to Firm in places)",
@@ -19,11 +19,11 @@
       "Down Royal": "Hurdle: yielding; chase: good to yielding"
     },
     "2026-11-01": {
-      "Carlisle": "Chase: good to soft-good in places; hurdle: good to soft-soft in places",
-      "Huntingdon": "Good-good to firm in places on hurdle course",
+      "Carlisle": "Chase: good-good to soft in places; hurdle: good to soft",
+      "Huntingdon": "Good",
       "Worcester": "Good to soft-soft in places",
-      "Cork": "Yielding to soft",
-      "Curragh": "Soft-soft to heavy in places"
+      "Cork": "Yielding-good to yielding in places",
+      "Curragh": "Straight: soft; round: yielding to soft"
     },
     "2026-11-02": {
       "Chelmsford City": "Standard",
