@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-31T10:02:11",
+  "fetched_at": "2026-10-31T10:58:13",
   "going": {
     "2026-10-31": {
       "Wetherby": "Good (Good to Firm in places)",
@@ -14,36 +14,36 @@
       "Carlisle": "Chase: good-good to soft in places; hurdle: good to soft",
       "Huntingdon": "Good",
       "Worcester": "Good to soft-soft in places",
-      "Cork": "Yielding-good to yielding in places",
-      "Curragh": "Straight: soft; round: yielding to soft"
+      "Curragh": "Straight: soft; round: yielding to soft",
+      "Cork": "Yielding-good to yielding in places"
     },
     "2026-11-02": {
-      "Chelmsford City": "Standard",
       "Plumpton": "Good-good to soft in places",
       "Southwell": "Good-good to soft in places",
+      "Chelmsford City": "Standard",
       "Wolverhampton": "Standard"
     },
     "2026-11-03": {
-      "Lingfield Park": "Good to soft",
-      "Sedgefield": "Good",
       "Warwick": "Good",
+      "Sedgefield": "Good",
+      "Lingfield Park": "Good to soft",
       "Wolverhampton": "Standard",
       "Fairyhouse": "Good to yielding"
     },
     "2026-11-04": {
-      "Kempton Park": "Standard to slow",
+      "Chepstow": "Hurdle: soft; chase: good-good to firm in places",
       "Nottingham": "Soft-heavy in places",
+      "Kempton Park": "Standard to slow",
       "Dundalk": "Standard",
       "Wexford": "Soft-soft to heavy in places",
-      "Chepstow": "Hurdle: soft; chase: good-good to firm in places",
       "Musselburgh": "Soft"
     },
     "2026-11-05": {
-      "Chelmsford City": "Standard",
       "Newbury": "Good to soft-soft in places",
       "Newcastle": "Good-good to soft in places",
       "Plumpton": "Good-good to soft in places",
       "Southwell": "Standard",
+      "Chelmsford City": "Standard",
       "Clonmel": "Yielding"
     }
   }
