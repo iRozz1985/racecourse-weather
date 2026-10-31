@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-10-31T15:58:40",
+  "fetched_at": "2026-10-31T16:28:18",
   "going": {
     "2026-10-31": {
       "Wetherby": "Good (Good to Firm in places)",
@@ -45,6 +45,12 @@
       "Southwell": "Standard",
       "Chelmsford City": "Standard",
       "Clonmel": "Yielding"
+    },
+    "2026-11-06": {
+      "Aintree": "Good",
+      "Fontwell Park": "Good to soft-soft in places on chase course",
+      "Hexham": "Good-good to soft in places",
+      "Newcastle": "Standard"
     }
   }
 }
