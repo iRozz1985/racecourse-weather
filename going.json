@@ -1,13 +1,13 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-01T09:29:38",
+  "fetched_at": "2026-11-01T10:12:02",
   "going": {
     "2026-11-01": {
-      "Carlisle": "Good (Good To Soft In Places)",
+      "Carlisle": "Good (Good to Soft in places)",
       "Huntingdon": "Good",
       "Worcester": "Good to Soft",
-      "Curragh": "Soft",
-      "Cork": "Yielding (Good To Yielding In Places)"
+      "Curragh": "Yielding to Soft",
+      "Cork": "Good to Yielding"
     },
     "2026-11-02": {
       "Plumpton": "Good-good to soft in places",
