@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-01T10:12:02",
+  "fetched_at": "2026-11-01T11:02:04",
   "going": {
     "2026-11-01": {
       "Carlisle": "Good (Good to Soft in places)",
@@ -18,9 +18,9 @@
     "2026-11-03": {
       "Warwick": "Good",
       "Sedgefield": "Good",
-      "Lingfield Park": "Good to soft",
+      "Lingfield Park": "Hurdle: gd to sft-gd in plcs; chase: gd-gd to sft in plcs; aw: standard to slow",
       "Wolverhampton": "Standard",
-      "Fairyhouse": "Good to yielding"
+      "Fairyhouse": "Good"
     },
     "2026-11-04": {
       "Chepstow": "Hurdle: soft; chase: good-good to firm in places",
