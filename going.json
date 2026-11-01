@@ -1,12 +1,12 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-01T13:37:21",
+  "fetched_at": "2026-11-01T14:25:46",
   "going": {
     "2026-11-01": {
       "Carlisle": "Good (Good to Soft in places)",
       "Huntingdon": "Good",
       "Worcester": "Good to Soft",
-      "Curragh": "Yielding to Soft",
+      "Curragh": "Yielding",
       "Cork": "Good to Yielding"
     },
     "2026-11-02": {
@@ -39,7 +39,7 @@
       "Clonmel": "Yielding"
     },
     "2026-11-06": {
-      "Aintree": "Good",
+      "Aintree": "Good-good to soft in places",
       "Fontwell Park": "Good to soft-soft in places on chase course",
       "Hexham": "Good-good to soft in places",
       "Newcastle": "Standard"
