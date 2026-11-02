@@ -1,10 +1,10 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-02T12:44:10",
+  "fetched_at": "2026-11-02T13:57:42",
   "going": {
     "2026-11-02": {
       "Plumpton": "Good (Good to Soft in places)",
-      "Southwell": "Good to Soft (Good in places)",
+      "Southwell": "Good (Good to Soft in places)",
       "Chelmsford City": "Standard",
       "Wolverhampton": "Standard"
     },
@@ -35,7 +35,19 @@
       "Aintree": "Good-good to soft in places",
       "Fontwell Park": "Good to soft-soft in places on chase course",
       "Hexham": "Good-good to soft in places",
-      "Newcastle": "Standard"
+      "Newcastle": "Standard",
+      "Dundalk": "Standard"
+    },
+    "2026-11-07": {
+      "Aintree": "Good-good to soft in places",
+      "Doncaster": "Soft-good to soft in places",
+      "Southwell": "Standard",
+      "Uttoxeter": "Good",
+      "Kelso": "Good"
+    },
+    "2026-11-08": {
+      "Sandown Park": "Good-good to soft in places",
+      "Ffos Las": "Good"
     }
   }
 }
