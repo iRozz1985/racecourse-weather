@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-03T11:39:35",
+  "fetched_at": "2026-11-03T12:45:18",
   "going": {
     "2026-11-03": {
       "Warwick": "Good",
@@ -41,7 +41,7 @@
     },
     "2026-11-08": {
       "Sandown Park": "Good-good to soft in places",
-      "Ffos Las": "Good"
+      "Ffos Las": "Hurdle: heavy-soft in places; chase: good"
     }
   }
 }
