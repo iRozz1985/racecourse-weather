@@ -1,9 +1,9 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-04T12:41:27",
+  "fetched_at": "2026-11-04T13:57:23",
   "going": {
     "2026-11-04": {
-      "Musselburgh": "Good to Soft (Soft in places)",
+      "Musselburgh": "Soft",
       "Nottingham": "Soft (Heavy in places)",
       "Chepstow": "Good to Soft (Soft in places)",
       "Kempton Park": "Standard / Slow",
@@ -40,7 +40,12 @@
     },
     "2026-11-09": {
       "Carlisle": "Hurdle: good to soft-good in places; chase: good-good to soft in places",
-      "Stratford-on-Avon": "Good to soft-good in places"
+      "Stratford-on-Avon": "Good to soft-good in places",
+      "Punchestown": "Good-good to yielding in places"
+    },
+    "2026-11-10": {
+      "Huntingdon": "Good",
+      "Lingfield Park": "Good"
     }
   }
 }
