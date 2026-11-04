@@ -1,14 +1,14 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-04T09:21:02",
+  "fetched_at": "2026-11-04T11:44:23",
   "going": {
     "2026-11-04": {
-      "Musselburgh": "Good to Soft (Good in places)",
+      "Musselburgh": "Soft (Good to Soft in places)",
       "Nottingham": "Soft (Heavy in places)",
       "Chepstow": "Good (Good to Firm in places)",
       "Kempton Park": "Standard / Slow",
       "Dundalk": "Standard",
-      "Wexford": "Yielding to Soft"
+      "Wexford": "Yielding (Yielding to Soft in places)"
     },
     "2026-11-05": {
       "Newbury": "Good to soft-soft in places",
@@ -19,8 +19,8 @@
       "Clonmel": "Hurdle: good-good to yielding in places; chase: good to yielding"
     },
     "2026-11-06": {
-      "Aintree": "Good-good to soft in places",
-      "Fontwell Park": "Good to soft-soft in places on chase course",
+      "Aintree": "Good to soft-good in places",
+      "Fontwell Park": "Good-good to soft in places",
       "Hexham": "Good-good to soft in places",
       "Newcastle": "Standard",
       "Dundalk": "Standard"
