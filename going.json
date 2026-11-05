@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-05T13:41:33",
+  "fetched_at": "2026-11-05T14:46:50",
   "going": {
     "2026-11-05": {
       "Newbury": "Good to Soft",
@@ -8,7 +8,7 @@
       "Plumpton": "Good (Good to Soft in places)",
       "Southwell": "Standard",
       "Chelmsford City": "Standard",
-      "Clonmel": "Good (Good to Yielding in places )"
+      "Clonmel": "Good to Yielding"
     },
     "2026-11-06": {
       "Aintree": "Good to soft-good in places",
@@ -42,7 +42,7 @@
     },
     "2026-11-11": {
       "Warwick": "Good-good to firm in places",
-      "Bangor-on-Dee": "on-dee Good",
+      "Bangor-on-Dee": "Good",
       "Ayr": "Good-good to soft in places"
     },
     "2026-11-12": {
