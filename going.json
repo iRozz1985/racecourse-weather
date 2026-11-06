@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-06T10:11:47",
+  "fetched_at": "2026-11-06T17:36:30",
   "going": {
     "2026-11-06": {
       "Aintree": "Good to Soft (Good in places)",
@@ -18,9 +18,9 @@
       "Gowran Park": "Hurdle: good to yielding; chase: good"
     },
     "2026-11-08": {
-      "Sandown Park": "Good-good to soft in places",
-      "Ffos Las": "Hurdle: heavy-soft in places; chase: good",
-      "Naas": "Good-good to yielding in places"
+      "Sandown Park": "Good",
+      "Ffos Las": "Hurdle: soft; chase: good-good to firm in places",
+      "Naas": "Good to yielding"
     },
     "2026-11-09": {
       "Carlisle": "Hurdle: good to soft-good in places; chase: good-good to soft in places",
@@ -29,15 +29,18 @@
     },
     "2026-11-10": {
       "Huntingdon": "Good",
-      "Lingfield Park": "Good-good to firm in places",
-      "Fairyhouse": "Good - yielding"
+      "Lingfield Park": "Aw: standard to slow; hurdle: good-good to firm in places",
+      "Fairyhouse": "Good to yielding"
     },
     "2026-11-11": {
       "Warwick": "Good-good to firm in places",
       "Bangor-on-Dee": "Good",
-      "Ayr": "Good-good to soft in places"
+      "Ayr": "Good-good to soft in places",
+      "Dundalk": "Standard"
     },
     "2026-11-12": {
+      "Market Rasen": "Good to soft-good in places",
+      "Hereford": "Good to firm-good in places",
       "Thurles": "Good"
     }
   }
