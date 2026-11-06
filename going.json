@@ -1,15 +1,7 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-05T22:28:31",
+  "fetched_at": "2026-11-06T02:43:22",
   "going": {
-    "2026-11-05": {
-      "Newbury": "Good to Soft",
-      "Newcastle": "Good (Good to Soft in places)",
-      "Plumpton": "Good (Good to Soft in places)",
-      "Southwell": "Standard",
-      "Chelmsford City": "Standard",
-      "Clonmel": "Good (Good to Yielding in places )"
-    },
     "2026-11-06": {
       "Aintree": "Good to soft-good in places",
       "Fontwell Park": "Good to soft-good in places on hurdle course",
