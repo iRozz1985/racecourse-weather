@@ -1,14 +1,14 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-10T07:55:11",
+  "fetched_at": "2026-11-10T15:58:04",
   "going": {
     "2026-11-10": {
       "Huntingdon": "Good",
-      "Lingfield Park": "Aw: standard to slow; hurdle: good",
-      "Fairyhouse": "Hurdle: good to yielding; chase: good-good to yielding in places"
+      "Lingfield Park": "Good",
+      "Fairyhouse": "Good to Yielding (Good in places)"
     },
     "2026-11-11": {
-      "Warwick": "Good-good to firm in places",
+      "Warwick": "Good",
       "Bangor-on-Dee": "Good",
       "Ayr": "Good-good to soft in places",
       "Dundalk": "Standard"
@@ -28,11 +28,17 @@
       "Cheltenham": "Good-good to firm in places",
       "Wetherby": "Good",
       "Uttoxeter": "Good",
-      "Windsor": "Good"
+      "Windsor": "Good",
+      "Navan": "Good - yielding"
     },
     "2026-11-15": {
       "Cheltenham": "Good-good to firm in places",
-      "Fontwell Park": "Good to soft-good in places"
+      "Fontwell Park": "Good-good to soft in places",
+      "Navan": "Good to yielding-good in places"
+    },
+    "2026-11-16": {
+      "Plumpton": "Good",
+      "Wolverhampton": "Standard"
     }
   }
 }
