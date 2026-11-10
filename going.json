@@ -1,12 +1,7 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-09T17:11:02",
+  "fetched_at": "2026-11-10T00:46:55",
   "going": {
-    "2026-11-09": {
-      "Carlisle": "Good to Soft",
-      "Stratford-on-Avon": "Good to Soft (Good in places)",
-      "Punchestown": "Good to Yielding"
-    },
     "2026-11-10": {
       "Huntingdon": "Good",
       "Lingfield Park": "Aw: standard to slow; hurdle: good",
@@ -31,8 +26,8 @@
     },
     "2026-11-14": {
       "Cheltenham": "Good-good to firm in places",
-      "Uttoxeter": "Good",
       "Wetherby": "Good",
+      "Uttoxeter": "Good",
       "Windsor": "Good"
     },
     "2026-11-15": {
