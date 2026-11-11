@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-11T08:40:38",
+  "fetched_at": "2026-11-11T16:47:46",
   "going": {
     "2026-11-11": {
       "Warwick": "Good",
@@ -10,11 +10,11 @@
     },
     "2026-11-12": {
       "Market Rasen": "Good to soft-good in places",
-      "Hereford": "Good to firm-good in places",
+      "Hereford": "Good-good to firm in places",
       "Thurles": "Good"
     },
     "2026-11-13": {
-      "Cheltenham": "Good-good to firm in places",
+      "Cheltenham": "Good-good to soft in places",
       "Sedgefield": "Good",
       "Southwell": "Good",
       "Dundalk": "Standard"
@@ -24,16 +24,20 @@
       "Wetherby": "Good",
       "Uttoxeter": "Good",
       "Windsor": "Good",
-      "Navan": "Good - yielding"
+      "Navan": "Good to yielding-yielding in places on chase course"
     },
     "2026-11-15": {
       "Cheltenham": "Good-good to firm in places",
       "Fontwell Park": "Good-good to soft in places",
-      "Navan": "Good to yielding-good in places"
+      "Navan": "Good to yielding-yielding in places on chase course"
     },
     "2026-11-16": {
-      "Plumpton": "Good",
+      "Plumpton": "Chase: good-good to soft in places; hurdle: good to soft-good in places",
       "Wolverhampton": "Standard"
+    },
+    "2026-11-17": {
+      "Carlisle": "Hurdle: good to soft; chase: good-good to soft in places",
+      "Southwell": "Standard"
     }
   }
 }
