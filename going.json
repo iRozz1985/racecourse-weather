@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-12T12:14:57",
+  "fetched_at": "2026-11-12T20:13:22",
   "going": {
     "2026-11-12": {
       "Market Rasen": "Good to Soft (Good in places)",
@@ -26,12 +26,21 @@
       "Navan": "Good to yielding-yielding in places on chase course"
     },
     "2026-11-16": {
-      "Plumpton": "Chase: good-good to soft in places; hurdle: good to soft-good in places",
+      "Plumpton": "Good-good to soft in places",
       "Wolverhampton": "Standard"
     },
     "2026-11-17": {
       "Carlisle": "Hurdle: good to soft; chase: good-good to soft in places",
-      "Southwell": "Standard"
+      "Southwell": "Standard",
+      "Limerick": "Good - yielding"
+    },
+    "2026-11-18": {
+      "Hexham": "Good-good to soft in places",
+      "Kempton Park": "Standard to slow",
+      "Ffos Las": "Good"
+    },
+    "2026-11-19": {
+      "Thurles": "Good"
     }
   }
 }
