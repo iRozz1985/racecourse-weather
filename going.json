@@ -1,9 +1,9 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-13T08:20:40",
+  "fetched_at": "2026-11-13T16:37:17",
   "going": {
     "2026-11-13": {
-      "Cheltenham": "Good (Good to Soft in places)",
+      "Cheltenham": "Good",
       "Sedgefield": "Good",
       "Southwell": "Good (Good to Soft in places)",
       "Dundalk": "Standard"
@@ -13,12 +13,12 @@
       "Wetherby": "Good",
       "Uttoxeter": "Good",
       "Windsor": "Good-good to soft in places on hurdle course",
-      "Navan": "Hurdle: good to yielding; chase: yielding-good to yielding in places"
+      "Navan": "Hurdle: good to yielding-yielding in places; chase: yielding-good to yielding in places"
     },
     "2026-11-15": {
-      "Cheltenham": "Good-good to firm in places",
-      "Fontwell Park": "Good-good to soft in places",
-      "Navan": "Good to yielding-yielding in places on chase course"
+      "Cheltenham": "Good-good to soft in places",
+      "Fontwell Park": "Good to soft-good in places",
+      "Navan": "Hurdle: good to yielding-yielding in places; chase: yielding-good to yielding in places"
     },
     "2026-11-16": {
       "Plumpton": "Good-good to soft in places",
@@ -27,14 +27,18 @@
     "2026-11-17": {
       "Carlisle": "Hurdle: good to soft; chase: good-good to soft in places",
       "Southwell": "Standard",
-      "Limerick": "Good - yielding"
+      "Limerick": "Good to yielding"
     },
     "2026-11-18": {
       "Hexham": "Good-good to soft in places",
       "Kempton Park": "Standard to slow",
+      "Dundalk": "Standard",
       "Ffos Las": "Good"
     },
     "2026-11-19": {
+      "Lingfield Park": "Standard",
+      "Newcastle": "Standard",
+      "Warwick": "Good-good to soft in places on chase course",
       "Thurles": "Good"
     }
   }
