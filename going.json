@@ -1,16 +1,16 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-14T02:33:20",
+  "fetched_at": "2026-11-14T09:40:01",
   "going": {
     "2026-11-14": {
       "Cheltenham": "Good",
       "Wetherby": "Good",
       "Uttoxeter": "Good",
-      "Windsor": "Good-good to soft in places on hurdle course",
-      "Navan": "Hurdle: good to yielding-yielding in places; chase: yielding-good to yielding in places"
+      "Windsor": "Good (Good to Soft in places)",
+      "Navan": "Good to Yielding (Yielding in places )"
     },
     "2026-11-15": {
-      "Cheltenham": "Good-good to soft in places",
+      "Cheltenham": "Good",
       "Fontwell Park": "Good to soft-good in places",
       "Navan": "Hurdle: good to yielding-yielding in places; chase: yielding-good to yielding in places"
     },
