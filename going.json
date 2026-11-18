@@ -1,11 +1,11 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-18T01:05:03",
+  "fetched_at": "2026-11-18T08:44:40",
   "going": {
     "2026-11-18": {
-      "Ffos Las": "Good-good to soft in places",
-      "Hexham": "Good-good to soft in places",
-      "Kempton Park": "Standard to slow",
+      "Ffos Las": "Good to Soft",
+      "Hexham": "Good to Soft",
+      "Kempton Park": "Standard / Slow",
       "Dundalk": "Standard"
     },
     "2026-11-19": {
@@ -33,8 +33,8 @@
       "Exeter": "Good to firm-good in places",
       "Fakenham": "Good",
       "Lingfield Park": "Standard",
-      "Cork": "Yielding",
-      "Punchestown": "Good - yielding"
+      "Punchestown": "Good - yielding",
+      "Cork": "Yielding"
     },
     "2026-11-23": {
       "Huntingdon": "Good-good to soft in places",
