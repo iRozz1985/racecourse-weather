@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-18T08:44:40",
+  "fetched_at": "2026-11-18T17:41:43",
   "going": {
     "2026-11-18": {
       "Ffos Las": "Good to Soft",
@@ -9,15 +9,15 @@
       "Dundalk": "Standard"
     },
     "2026-11-19": {
-      "Warwick": "Hurdle: good to soft-soft in places; chase: soft-good to soft in places",
+      "Warwick": "Good to soft-soft in places",
       "Lingfield Park": "Standard",
       "Newcastle": "Standard",
       "Thurles": "Good"
     },
     "2026-11-20": {
-      "Ascot": "Hurdle: good to firm-good in places; chase: good-good to firm in places",
-      "Chepstow": "Hurdle: good to soft; chase: good-good to firm in places",
-      "Catterick": "Good-good to firm in places",
+      "Ascot": "Good-good to firm in places",
+      "Chepstow": "Hurdle: soft; chase: good",
+      "Catterick": "Good",
       "Wolverhampton": "Standard",
       "Dundalk": "Standard"
     },
@@ -27,19 +27,26 @@
       "Huntingdon": "Good-good to soft in places",
       "Lingfield Park": "Standard",
       "Newcastle": "Standard",
-      "Punchestown": "Good - yielding"
+      "Punchestown": "Good to yielding"
     },
     "2026-11-22": {
       "Exeter": "Good to firm-good in places",
       "Fakenham": "Good",
       "Lingfield Park": "Standard",
-      "Punchestown": "Good - yielding",
-      "Cork": "Yielding"
+      "Punchestown": "Good to yielding; cross country: good",
+      "Cork": "Yielding-yielding to soft in places"
     },
     "2026-11-23": {
       "Huntingdon": "Good-good to soft in places",
       "Kempton Park": "Good-good to firm in places",
       "Newcastle": "Standard",
+      "Wolverhampton": "Standard",
+      "Bangor-on-Dee": "Good to soft-soft in places"
+    },
+    "2026-11-24": {
+      "Lingfield Park": "Standard",
+      "Southwell": "Good to soft",
+      "Wincanton": "Good to firm-firm in places",
       "Wolverhampton": "Standard"
     }
   }
