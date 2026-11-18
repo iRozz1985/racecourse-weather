@@ -1,15 +1,10 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-17T18:00:32",
+  "fetched_at": "2026-11-18T01:05:03",
   "going": {
-    "2026-11-17": {
-      "Carlisle": "Good to Soft (Soft in places)",
-      "Southwell": "Standard",
-      "Limerick": "Heavy"
-    },
     "2026-11-18": {
       "Ffos Las": "Good-good to soft in places",
-      "Hexham": "Good",
+      "Hexham": "Good-good to soft in places",
       "Kempton Park": "Standard to slow",
       "Dundalk": "Standard"
     },
