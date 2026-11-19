@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-19T14:35:21",
+  "fetched_at": "2026-11-19T22:31:32",
   "going": {
     "2026-11-19": {
       "Warwick": "Soft (Good to Soft in places)",
@@ -45,6 +45,10 @@
       "Tramore": "Soft-heavy in places on hurdle course"
     },
     "2026-11-25": {
+      "Hereford": "Good-good to firm in places",
+      "Kempton Park": "Standard to slow",
+      "Newcastle": "Standard",
+      "Wetherby": "Good to soft-good in places",
       "Dundalk": "Standard"
     },
     "2026-11-26": {
