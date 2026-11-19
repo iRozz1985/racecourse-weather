@@ -1,12 +1,12 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-19T05:16:10",
+  "fetched_at": "2026-11-19T14:35:21",
   "going": {
     "2026-11-19": {
-      "Warwick": "Good to soft-soft in places",
+      "Warwick": "Soft (Good to Soft in places)",
       "Lingfield Park": "Standard",
       "Newcastle": "Standard",
-      "Thurles": "Good"
+      "Thurles": "Good (Good to Yielding in places )"
     },
     "2026-11-20": {
       "Ascot": "Good-good to firm in places",
@@ -21,7 +21,7 @@
       "Huntingdon": "Good-good to soft in places",
       "Lingfield Park": "Standard",
       "Newcastle": "Standard",
-      "Punchestown": "Good to yielding"
+      "Punchestown": "Good to yielding-yielding in places"
     },
     "2026-11-22": {
       "Exeter": "Good to firm-good in places",
@@ -41,7 +41,14 @@
       "Lingfield Park": "Standard",
       "Southwell": "Good to soft",
       "Wincanton": "Good to firm-firm in places",
-      "Wolverhampton": "Standard"
+      "Wolverhampton": "Standard",
+      "Tramore": "Soft-heavy in places on hurdle course"
+    },
+    "2026-11-25": {
+      "Dundalk": "Standard"
+    },
+    "2026-11-26": {
+      "Thurles": "Good-good to yielding in places on hurdle course"
     }
   }
 }
