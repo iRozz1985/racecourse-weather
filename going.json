@@ -1,14 +1,14 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-21T01:53:57",
+  "fetched_at": "2026-11-21T08:59:50",
   "going": {
     "2026-11-21": {
-      "Haydock Park": "Good-good to soft in places",
-      "Ascot": "Good-good to firm in places",
-      "Huntingdon": "Good-good to soft in places",
+      "Haydock Park": "Good (Good to Soft in places)",
+      "Ascot": "Good to Firm (Good in places)",
+      "Huntingdon": "Good (Good to Soft in places)",
       "Lingfield Park": "Standard",
       "Newcastle": "Standard",
-      "Punchestown": "Good to yielding-yielding in places"
+      "Punchestown": "Good to Yielding (Yielding in places)"
     },
     "2026-11-22": {
       "Exeter": "Good to firm-good in places",
