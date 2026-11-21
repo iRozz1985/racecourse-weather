@@ -1,6 +1,6 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-21T08:59:50",
+  "fetched_at": "2026-11-21T16:41:00",
   "going": {
     "2026-11-21": {
       "Haydock Park": "Good (Good to Soft in places)",
@@ -12,14 +12,14 @@
     },
     "2026-11-22": {
       "Exeter": "Good to firm-good in places",
-      "Fakenham": "Good-good to soft in places",
+      "Fakenham": "Good",
       "Lingfield Park": "Standard",
       "Punchestown": "Good to yielding-yielding in places on hurdle & chase course",
       "Cork": "Yielding-yielding to soft in places"
     },
     "2026-11-23": {
       "Huntingdon": "Good-good to soft in places",
-      "Bangor-on-Dee": "Good to soft-soft in places",
+      "Bangor-on-Dee": "Good to soft-soft in places on chase course",
       "Kempton Park": "Good-good to firm in places",
       "Newcastle": "Standard",
       "Wolverhampton": "Standard"
@@ -41,9 +41,15 @@
     "2026-11-26": {
       "Market Rasen": "Good to soft-soft in places",
       "Taunton": "Good to firm",
-      "Lingfield Park": "Good to soft-soft in places",
+      "Lingfield Park": "Good to soft",
       "Chelmsford City": "Standard",
       "Thurles": "Good-good to yielding in places on hurdle course"
+    },
+    "2026-11-27": {
+      "Doncaster": "Good",
+      "Newbury": "Good-good to soft in places on hurdle course",
+      "Southwell": "Standard",
+      "Musselburgh": "Good to soft"
     }
   }
 }
