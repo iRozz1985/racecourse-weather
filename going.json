@@ -1,23 +1,23 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-23T03:23:46",
+  "fetched_at": "2026-11-23T13:23:33",
   "going": {
     "2026-11-23": {
       "Huntingdon": "Good",
-      "Bangor-on-Dee": "Good to soft-soft in places on chase course (prec inspection 8am)",
+      "Bangor-on-Dee": "Good to Soft",
       "Kempton Park": "Good",
       "Newcastle": "Standard",
       "Wolverhampton": "Standard"
     },
     "2026-11-24": {
       "Lingfield Park": "Standard",
-      "Southwell": "Good to soft-good in places",
+      "Southwell": "Good-good to soft in places",
       "Wolverhampton": "Standard",
       "Tramore": "Soft-yielding in places on chase course",
       "Wincanton": "Good to firm-firm in places"
     },
     "2026-11-25": {
-      "Wetherby": "Good to soft-good in places",
+      "Wetherby": "Good-good to soft in places",
       "Hereford": "Good-good to firm in places",
       "Newcastle": "Standard",
       "Kempton Park": "Standard to slow",
@@ -31,10 +31,11 @@
       "Thurles": "Good-good to yielding in places on hurdle course"
     },
     "2026-11-27": {
-      "Doncaster": "Good",
       "Newbury": "Good-good to soft in places on hurdle course",
+      "Musselburgh": "Good to soft",
+      "Doncaster": "Good",
       "Southwell": "Standard",
-      "Musselburgh": "Good to soft"
+      "Dundalk": "Standard"
     }
   }
 }
