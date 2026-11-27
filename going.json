@@ -1,16 +1,16 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-27T08:52:46",
+  "fetched_at": "2026-11-27T18:36:19",
   "going": {
     "2026-11-27": {
       "Newbury": "Good to Soft (Good in places)",
-      "Musselburgh": "Good to Soft (Good in places)",
+      "Musselburgh": "Soft",
       "Doncaster": "Good",
       "Southwell": "Standard",
       "Dundalk": "Standard"
     },
     "2026-11-28": {
-      "Newbury": "Hurdle: good to soft-good in places; chase: good-good to soft in places",
+      "Newbury": "Chase: good-good to soft in places; hurdle: good to soft-good in places",
       "Newcastle": "Good-good to soft in places",
       "Bangor-on-Dee": "Chase: good to soft; hurdle: good-good to soft in places",
       "Doncaster": "Good",
@@ -18,9 +18,10 @@
       "Fairyhouse": "Hurdle: yielding-good to yielding in places; chase: good to yielding-yielding in places"
     },
     "2026-11-29": {
-      "Carlisle": "Good to soft-good in places",
-      "Fairyhouse": "Good to yielding",
-      "Leicester": "Good to firm-firm in places; home straight: good to soft; (inspection 9.30am wednesday)"
+      "Carlisle": "Good-good to soft in places",
+      "Leicester": "Good to firm-firm in places; home straight: good to soft; (inspection 9.30am wednesday)",
+      "Fairyhouse": "Hurdle: yielding-good to yielding in places; chase: good to yielding-yielding in places",
+      "Ffos Las": "Good to soft"
     },
     "2026-11-30": {
       "Ayr": "Soft-good to soft in places",
@@ -43,6 +44,11 @@
       "Dundalk": "Standard"
     },
     "2026-12-03": {
+      "Chelmsford City": "Standard",
+      "Leicester": "Good to firm-firm in places; home straight: good to soft",
+      "Market Rasen": "Good to soft-good in places",
+      "Southwell": "Standard",
+      "Wincanton": "Good to firm-firm in places",
       "Thurles": "Good-good to yielding in places on hurdle course"
     }
   }
