@@ -1,21 +1,21 @@
 {
   "source": "https://www.sportinglife.com/racing/going",
-  "fetched_at": "2026-11-27T00:12:27",
+  "fetched_at": "2026-11-27T08:52:46",
   "going": {
     "2026-11-27": {
-      "Newbury": "Good-good to soft in places on hurdle course",
-      "Musselburgh": "Good to soft-good in places",
+      "Newbury": "Good to Soft (Good in places)",
+      "Musselburgh": "Good to Soft (Good in places)",
       "Doncaster": "Good",
       "Southwell": "Standard",
       "Dundalk": "Standard"
     },
     "2026-11-28": {
-      "Newbury": "Good-good to soft in places on hurdle course",
+      "Newbury": "Hurdle: good to soft-good in places; chase: good-good to soft in places",
       "Newcastle": "Good-good to soft in places",
       "Bangor-on-Dee": "Chase: good to soft; hurdle: good-good to soft in places",
       "Doncaster": "Good",
       "Southwell": "Standard",
-      "Fairyhouse": "Hurdle: yielding-good to yielding in places; chase: good to yielding"
+      "Fairyhouse": "Hurdle: yielding-good to yielding in places; chase: good to yielding-yielding in places"
     },
     "2026-11-29": {
       "Carlisle": "Good to soft-good in places",
